@@ -2,10 +2,12 @@
 //prototype version
 
 *************************Controll**********************************
+
 Move = Left mouse button 
 Attack = "A"
 
 *************************Currently available functions**********************************
+
 1.Character movement
 Adjusted by Steering in the Player.
 
