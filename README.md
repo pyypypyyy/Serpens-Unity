@@ -1,7 +1,7 @@
 # Serpens-Unity
 //prototype version
 
-*************************Controll*************************
+*************************Control*************************
 
 Move = Left mouse button 
 
