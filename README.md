@@ -21,6 +21,8 @@ adjust the distance = Mouse wheel up and down
 
 Adjusted in EnemySpawner by Total Enemies and Spawn Time
 
+EnemySpawner is the location of the enemy spawner, you can add its number or location.
+
 4.Attack damage and enemy HP
 
 Adjustment through the corresponding script of the binding
