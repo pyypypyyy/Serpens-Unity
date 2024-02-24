@@ -1,31 +1,49 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f; 
+    public float moveSpeed = 5f;
+   
+    private Rigidbody rb;
+    private Animator animatior;
 
-    private Rigidbody2D rb;
+    private float inputX, inputY;
+    private float stopX, stopY;
 
     private Vector3 offset;
+   
 
-    void Start()
+    private void Start()
     {
         offset = Camera.main.transform.position - transform.position;
-        rb = GetComponent<Rigidbody2D>(); 
+        rb = GetComponent<Rigidbody>();
+        animatior = GetComponent<Animator>();
     }
 
-    void Update()
+    private void Update()
     {
-        
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
+        inputX = Input.GetAxisRaw("Horizontal");
+        inputY = Input.GetAxisRaw("Vertical");
+        Vector2 input = new Vector2(inputX, inputY).normalized;
+        rb.velocity = input * moveSpeed;
 
-        
-        Vector2 movement = new Vector2(moveHorizontal, moveVertical).normalized;
-
-        
-        rb.velocity = movement * moveSpeed;
+        if(input != Vector2.zero)
+        {
+            animatior.SetBool("isMoving", true);
+            stopX = inputX;
+            stopY = inputY;
+        }
+        else
+        {
+            animatior.SetBool("isMoving", false);
+        }
+        animatior.SetFloat("InputX", stopX);
+        animatior.SetFloat("InputY", stopY);
 
         Camera.main.transform.position = transform.position + offset;
     }
+
+    
 }
