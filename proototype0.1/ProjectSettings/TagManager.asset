@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Menu
   - GameSettings
+  - Confinder
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Confinder
   - Water
   - UI
   - 
