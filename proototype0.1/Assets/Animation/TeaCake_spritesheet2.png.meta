@@ -1,0 +1,1144 @@
+fileFormatVersion: 2
+guid: e8047699c765d4990af6b839ed96132f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1170344642581656957
+    second: TeaCake_spritesheet2_0
+  - first:
+      213: -1509028821783015473
+    second: TeaCake_spritesheet2_1
+  - first:
+      213: -1141165640566111041
+    second: TeaCake_spritesheet2_2
+  - first:
+      213: -7194944217656027569
+    second: TeaCake_spritesheet2_3
+  - first:
+      213: 2580795850454699120
+    second: TeaCake_spritesheet2_4
+  - first:
+      213: -1123396252960802752
+    second: TeaCake_spritesheet2_5
+  - first:
+      213: -1135306886924988098
+    second: TeaCake_spritesheet2_6
+  - first:
+      213: -1812045296098548870
+    second: TeaCake_spritesheet2_7
+  - first:
+      213: 5903955215333803951
+    second: TeaCake_spritesheet2_8
+  - first:
+      213: 7951121491709242175
+    second: TeaCake_spritesheet2_9
+  - first:
+      213: -1126350602299271143
+    second: TeaCake_spritesheet2_10
+  - first:
+      213: -5291014579524115326
+    second: TeaCake_spritesheet2_11
+  - first:
+      213: -7597920819319070422
+    second: TeaCake_spritesheet2_12
+  - first:
+      213: -8061070351806732004
+    second: TeaCake_spritesheet2_13
+  - first:
+      213: 8382199037294657986
+    second: TeaCake_spritesheet2_14
+  - first:
+      213: -5351971384595487734
+    second: TeaCake_spritesheet2_15
+  - first:
+      213: -4015421266225218127
+    second: TeaCake_spritesheet2_16
+  - first:
+      213: -4331052801407779071
+    second: TeaCake_spritesheet2_17
+  - first:
+      213: 7015710635040494962
+    second: TeaCake_spritesheet2_18
+  - first:
+      213: -1494349176144100157
+    second: TeaCake_spritesheet2_19
+  - first:
+      213: 6815668216233711178
+    second: TeaCake_spritesheet2_20
+  - first:
+      213: 6127082821201831686
+    second: TeaCake_spritesheet2_21
+  - first:
+      213: 9122557458338246468
+    second: TeaCake_spritesheet2_22
+  - first:
+      213: -3697096659856451632
+    second: TeaCake_spritesheet2_23
+  - first:
+      213: 4672510794972377336
+    second: TeaCake_spritesheet2_24
+  - first:
+      213: 7338789436860001646
+    second: TeaCake_spritesheet2_25
+  - first:
+      213: -6120168900210311466
+    second: TeaCake_spritesheet2_26
+  - first:
+      213: 240111047592229612
+    second: TeaCake_spritesheet2_27
+  - first:
+      213: 6118375946341152164
+    second: TeaCake_spritesheet2_28
+  - first:
+      213: -6228972778026244837
+    second: TeaCake_spritesheet2_29
+  - first:
+      213: -8380320241491851218
+    second: TeaCake_spritesheet2_30
+  - first:
+      213: 8149180651936853118
+    second: TeaCake_spritesheet2_31
+  - first:
+      213: -569557167633526029
+    second: TeaCake_spritesheet2_32
+  - first:
+      213: -8658696766607620036
+    second: TeaCake_spritesheet2_33
+  - first:
+      213: 1220687321592843387
+    second: TeaCake_spritesheet2_34
+  - first:
+      213: -1278112918181768488
+    second: TeaCake_spritesheet2_35
+  - first:
+      213: 7608951021873862624
+    second: TeaCake_spritesheet2_36
+  - first:
+      213: -8500739461159342480
+    second: TeaCake_spritesheet2_37
+  - first:
+      213: 4143530040791888064
+    second: TeaCake_spritesheet2_38
+  - first:
+      213: -3391622374845334996
+    second: TeaCake_spritesheet2_39
+  - first:
+      213: 2074230649189598678
+    second: TeaCake_spritesheet2_40
+  - first:
+      213: -4587214754194271850
+    second: TeaCake_spritesheet2_41
+  - first:
+      213: -3540788886522295226
+    second: TeaCake_spritesheet2_42
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 2715
+        width: 210
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d757cdd6046ed3010800000000000000
+      internalID: 1170344642581656957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_1
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 2708
+        width: 227
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf0cc1284ade0be0800000000000000
+      internalID: -1509028821783015473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_2
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 2700
+        width: 242
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb40d2465e3c920f0800000000000000
+      internalID: -1141165640566111041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_3
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 2688
+        width: 270
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f469cdfba5c662c90800000000000000
+      internalID: -7194944217656027569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_4
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 2685
+        width: 282
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c87200724d0d320800000000000000
+      internalID: 2580795850454699120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_5
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 2685
+        width: 282
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04834485f05e860f0800000000000000
+      internalID: -1123396252960802752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_6
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 2687
+        width: 281
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3118c5c6649e30f0800000000000000
+      internalID: -1135306886924988098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_7
+      rect:
+        serializedVersion: 2
+        x: 2865
+        y: 2687
+        width: 264
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73e02167625ad6e0800000000000000
+      internalID: -1812045296098548870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_8
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2185
+        width: 238
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa749c3ecff0fe150800000000000000
+      internalID: 5903955215333803951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_9
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 2195
+        width: 209
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bad4faede085e60800000000000000
+      internalID: 7951121491709242175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_10
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 2181
+        width: 211
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918976948166e50f0800000000000000
+      internalID: -1126350602299271143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_11
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 2193
+        width: 184
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2846d0ed54a8296b0800000000000000
+      internalID: -5291014579524115326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_12
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 2203
+        width: 170
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2121f43543ce8690800000000000000
+      internalID: -7597920819319070422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_13
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 2216
+        width: 179
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1960237933512090800000000000000
+      internalID: -8061070351806732004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_14
+      rect:
+        serializedVersion: 2
+        x: 2535
+        y: 2240
+        width: 205
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1c1961d9d835470800000000000000
+      internalID: 8382199037294657986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_15
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 2277
+        width: 230
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a046125b16af9b5b0800000000000000
+      internalID: -5351971384595487734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_16
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1808
+        width: 242
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdb81b02ab5648c0800000000000000
+      internalID: -4015421266225218127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_17
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1822
+        width: 244
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ff0ac8c6205e3c0800000000000000
+      internalID: -4331052801407779071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_18
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1829
+        width: 243
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275d488d6afcc5160800000000000000
+      internalID: 7015710635040494962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_19
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1831
+        width: 241
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c488897751034be0800000000000000
+      internalID: -1494349176144100157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_20
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 1829
+        width: 237
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46d787b12e169e50800000000000000
+      internalID: 6815668216233711178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_21
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 1823
+        width: 233
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607222bfc55c70550800000000000000
+      internalID: 6127082821201831686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_22
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1817
+        width: 227
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f675bcca5d99e70800000000000000
+      internalID: 9122557458338246468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_23
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 1808
+        width: 220
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d719f80d2641bcc0800000000000000
+      internalID: -3697096659856451632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_24
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1425
+        width: 212
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0b18fdfc718d040800000000000000
+      internalID: 4672510794972377336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_25
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1407
+        width: 205
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ded693c1e98d560800000000000000
+      internalID: 7338789436860001646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_26
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1389
+        width: 196
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de3291bfcac01ba0800000000000000
+      internalID: -6120168900210311466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_27
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 1356
+        width: 172
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceab162c9bb055300800000000000000
+      internalID: 240111047592229612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_28
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 1322
+        width: 157
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a575f3b186d8e450800000000000000
+      internalID: 6118375946341152164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_29
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 1312
+        width: 182
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15ea2ac24e3e89a0800000000000000
+      internalID: -6228972778026244837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_30
+      rect:
+        serializedVersion: 2
+        x: 2515
+        y: 1292
+        width: 210
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28ccd5242f13bb80800000000000000
+      internalID: -8380320241491851218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_31
+      rect:
+        serializedVersion: 2
+        x: 2876
+        y: 1282
+        width: 209
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7cae2170a4b71170800000000000000
+      internalID: 8149180651936853118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_32
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 974
+        width: 209
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f21def06c68818f0800000000000000
+      internalID: -569557167633526029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_33
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 958
+        width: 248
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c388780aa2126d780800000000000000
+      internalID: -8658696766607620036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_34
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 945
+        width: 278
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c4d59c6a0c0f010800000000000000
+      internalID: 1220687321592843387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_35
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 956
+        width: 256
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d210f8921b334ee0800000000000000
+      internalID: -1278112918181768488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_36
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 918
+        width: 222
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e71324f3ac689960800000000000000
+      internalID: 7608951021873862624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_37
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 922
+        width: 214
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ea379bf7e470a80800000000000000
+      internalID: -8500739461159342480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_38
+      rect:
+        serializedVersion: 2
+        x: 2526
+        y: 923
+        width: 210
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c07f856e96c08930800000000000000
+      internalID: 4143530040791888064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_39
+      rect:
+        serializedVersion: 2
+        x: 2938
+        y: 928
+        width: 198
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ab31f6b698ee0d0800000000000000
+      internalID: -3391622374845334996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_40
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 579
+        width: 190
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d58c2329c529cc10800000000000000
+      internalID: 2074230649189598678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_41
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 575
+        width: 199
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691d1d33c70f650c0800000000000000
+      internalID: -4587214754194271850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeaCake_spritesheet2_42
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 570
+        width: 210
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c003284479cdec0800000000000000
+      internalID: -3540788886522295226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
