@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Character : MonoBehaviour
 {
@@ -8,6 +9,12 @@ public class Character : MonoBehaviour
     [SerializeField]protected float maxHealth;
     [SerializeField]protected float currentHealth;
 
+    [Header("invincible")]
+    public bool invulnerable;
+    public float invulnerableDuration;
+
+    public UnityEvent onHurt;
+    public UnityEvent onDeath;
     protected virtual void OnEnable()
     {
         currentHealth = maxHealth;
@@ -15,9 +22,16 @@ public class Character : MonoBehaviour
 
     public virtual void TakeDamage(float damage)
     {
-        currentHealth -= damage;
-
-        if (currentHealth <= 0f)
+        if (invulnerable)
+            return;
+        if (currentHealth - damage> 0f)
+        {
+            currentHealth -= damage;
+            StartCoroutine(nameof(InvulnerableCoroutine));
+            //run hurt animation
+            onHurt?.Invoke();
+        }
+        else
         {
             Die();
         }
@@ -27,6 +41,18 @@ public class Character : MonoBehaviour
     public virtual void Die()
     {
         currentHealth = 0f;
-        Destroy(this.gameObject);
+        //run die animation
+        onDeath?.Invoke();
+    }
+
+
+    protected virtual IEnumerator InvulnerableCoroutine()
+    {
+        invulnerable = true;
+
+        //wait for the invulnerableduration
+        yield return new WaitForSeconds(invulnerableDuration); 
+
+        invulnerable = false;
     }
 }

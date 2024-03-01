@@ -19,6 +19,8 @@ public class PlayerController : MonoBehaviour
     private float inputX, inputY;
     private float stopX, stopY;
 
+    public bool isDead;
+
     private void Awake()
     {
         inputActions = new InputActions();
@@ -71,10 +73,28 @@ public class PlayerController : MonoBehaviour
         anim.SetTrigger("meleeAttack");
         isMeleeAttack = true;
     }
+
+    public void PlayerHurt()
+    {
+        anim.SetTrigger("hurt");
+    }
+
+    public void PlayerDead()
+    {
+        isDead = true;
+        //ban Gameplay input
+        SwitchActionMap(inputActions.UI);//switch to UI inputmap
+    }
     void SetAnimation()
     {
         anim.SetFloat("speed", rb.velocity.magnitude);
         anim.SetBool("isMeleeAttack", isMeleeAttack);
+        anim.SetBool("isDead", isDead);
     }
 
+    void SwitchActionMap(InputActionMap actionMap)
+    {
+        inputActions.Disable();
+        actionMap.Enable();
+    }
 }

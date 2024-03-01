@@ -1,5 +1,5 @@
 {
-    "name": "InputActions",
+    "name": "Input Actions",
     "maps": [
         {
             "name": "GamePlay",
@@ -158,6 +158,12 @@
                     "isPartOfComposite": true
                 }
             ]
+        },
+        {
+            "name": "UI",
+            "id": "31970d3f-ec63-4849-92f4-a350008747fc",
+            "actions": [],
+            "bindings": []
         }
     ],
     "controlSchemes": []
