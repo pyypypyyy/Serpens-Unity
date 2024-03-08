@@ -631,7 +631,7 @@ GameObject:
   - component: {fileID: 451128798}
   - component: {fileID: 451128794}
   - component: {fileID: 451128799}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -778,7 +778,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -35390,7 +35390,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1238788925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35563,7 +35563,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282610626}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
   m_Name: 
@@ -36266,6 +36266,11 @@ MonoBehaviour:
   player: {fileID: 451128793}
   chaseDistance: 3
   attackDistance: 0.8
+  meleeAttackDamage: 10
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  AttackCooldownDuration: 5
 --- !u!61 &1515921160
 BoxCollider2D:
   m_ObjectHideFlags: 0
