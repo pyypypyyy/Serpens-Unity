@@ -36204,10 +36204,34 @@ MonoBehaviour:
   invulnerableDuration: 0
   onHurt:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1515921165}
+        m_TargetAssemblyTypeName: EnemyController, Assembly-CSharp
+        m_MethodName: EnemyHurt
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1515921165}
+        m_TargetAssemblyTypeName: EnemyController, Assembly-CSharp
+        m_MethodName: EnemyDead
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   damage: 50
   OnMovementInput:
     m_PersistentCalls:
@@ -36357,7 +36381,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -4791513499349867443, guid: 7c4717c4a78bbf0469767437b7e6284c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -36419,6 +36443,9 @@ MonoBehaviour:
   currentSpeed: 1
   isAttack: 1
   attackCoolDuration: 1
+  isKonckback: 1
+  KonckbackForce: 2.5
+  KonckbackForceDuration: 0.1
 --- !u!1 &1547620102
 GameObject:
   m_ObjectHideFlags: 0
