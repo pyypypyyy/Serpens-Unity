@@ -36265,7 +36265,7 @@ MonoBehaviour:
         m_CallState: 2
   player: {fileID: 451128793}
   chaseDistance: 3
-  attackDistance: 0.8
+  attackDistance: 0.6
   meleeAttackDamage: 10
   playerLayer:
     serializedVersion: 2
@@ -36445,7 +36445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87f5b3cd8f000664a93f1205302d066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentSpeed: 1
+  currentSpeed: 0.8
   isAttack: 1
   attackCoolDuration: 1
   isKonckback: 1
