@@ -386,12 +386,12 @@ TextureImporter:
       name: monster_03_0
       rect:
         serializedVersion: 2
-        x: 29
-        y: 147
-        width: 21
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 148
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -407,12 +407,12 @@ TextureImporter:
       name: monster_03_1
       rect:
         serializedVersion: 2
-        x: 90
-        y: 147
-        width: 21
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 61
+        y: 148
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -428,12 +428,12 @@ TextureImporter:
       name: monster_03_2
       rect:
         serializedVersion: 2
-        x: 151
-        y: 147
-        width: 21
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 122
+        y: 148
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -449,12 +449,12 @@ TextureImporter:
       name: monster_03_3
       rect:
         serializedVersion: 2
-        x: 212
-        y: 147
-        width: 21
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 183
+        y: 148
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -470,12 +470,12 @@ TextureImporter:
       name: monster_03_4
       rect:
         serializedVersion: 2
-        x: 29
-        y: 110
-        width: 21
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 111
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -491,12 +491,12 @@ TextureImporter:
       name: monster_03_5
       rect:
         serializedVersion: 2
-        x: 90
-        y: 110
-        width: 21
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 61
+        y: 111
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -512,12 +512,12 @@ TextureImporter:
       name: monster_03_6
       rect:
         serializedVersion: 2
-        x: 151
-        y: 110
-        width: 21
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 122
+        y: 111
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -533,12 +533,12 @@ TextureImporter:
       name: monster_03_7
       rect:
         serializedVersion: 2
-        x: 212
-        y: 110
-        width: 21
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 183
+        y: 111
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -554,12 +554,12 @@ TextureImporter:
       name: monster_03_8
       rect:
         serializedVersion: 2
-        x: 273
-        y: 110
-        width: 21
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 244
+        y: 111
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -575,12 +575,12 @@ TextureImporter:
       name: monster_03_9
       rect:
         serializedVersion: 2
-        x: 282
-        y: 87
-        width: 21
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 305
+        y: 111
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -596,12 +596,12 @@ TextureImporter:
       name: monster_03_10
       rect:
         serializedVersion: 2
-        x: 334
-        y: 110
-        width: 21
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 366
+        y: 111
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -617,12 +617,12 @@ TextureImporter:
       name: monster_03_11
       rect:
         serializedVersion: 2
-        x: 395
-        y: 110
-        width: 21
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 427
+        y: 111
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -638,12 +638,12 @@ TextureImporter:
       name: monster_03_12
       rect:
         serializedVersion: 2
-        x: 456
-        y: 110
-        width: 21
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 74
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -659,12 +659,12 @@ TextureImporter:
       name: monster_03_13
       rect:
         serializedVersion: 2
-        x: 29
-        y: 73
-        width: 21
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 61
+        y: 74
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -680,12 +680,12 @@ TextureImporter:
       name: monster_03_14
       rect:
         serializedVersion: 2
-        x: 86
-        y: 73
-        width: 27
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 122
+        y: 74
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -701,12 +701,12 @@ TextureImporter:
       name: monster_03_15
       rect:
         serializedVersion: 2
-        x: 148
-        y: 73
-        width: 25
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 183
+        y: 74
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -722,12 +722,12 @@ TextureImporter:
       name: monster_03_16
       rect:
         serializedVersion: 2
-        x: 209
-        y: 73
-        width: 25
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 244
+        y: 74
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -743,12 +743,12 @@ TextureImporter:
       name: monster_03_17
       rect:
         serializedVersion: 2
-        x: 277
-        y: 73
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 305
+        y: 74
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -764,12 +764,12 @@ TextureImporter:
       name: monster_03_18
       rect:
         serializedVersion: 2
-        x: 319
-        y: 80
-        width: 37
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 366
+        y: 74
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -785,12 +785,12 @@ TextureImporter:
       name: monster_03_19
       rect:
         serializedVersion: 2
-        x: 339
-        y: 73
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 427
+        y: 74
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -806,12 +806,12 @@ TextureImporter:
       name: monster_03_20
       rect:
         serializedVersion: 2
-        x: 368
-        y: 73
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 488
+        y: 74
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -827,12 +827,12 @@ TextureImporter:
       name: monster_03_21
       rect:
         serializedVersion: 2
-        x: 400
+        x: 549
         y: 74
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -848,12 +848,12 @@ TextureImporter:
       name: monster_03_22
       rect:
         serializedVersion: 2
-        x: 434
-        y: 76
-        width: 24
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 610
+        y: 74
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -869,12 +869,12 @@ TextureImporter:
       name: monster_03_23
       rect:
         serializedVersion: 2
-        x: 454
-        y: 73
-        width: 19
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 671
+        y: 74
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -890,12 +890,12 @@ TextureImporter:
       name: monster_03_24
       rect:
         serializedVersion: 2
-        x: 488
-        y: 73
-        width: 33
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 732
+        y: 74
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -911,12 +911,12 @@ TextureImporter:
       name: monster_03_25
       rect:
         serializedVersion: 2
-        x: 520
-        y: 73
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 793
+        y: 74
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -932,12 +932,12 @@ TextureImporter:
       name: monster_03_26
       rect:
         serializedVersion: 2
-        x: 548
-        y: 73
-        width: 32
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 854
+        y: 74
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -953,12 +953,12 @@ TextureImporter:
       name: monster_03_27
       rect:
         serializedVersion: 2
-        x: 583
-        y: 73
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 915
+        y: 74
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -974,12 +974,12 @@ TextureImporter:
       name: monster_03_28
       rect:
         serializedVersion: 2
-        x: 623
-        y: 79
-        width: 21
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 37
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -995,12 +995,12 @@ TextureImporter:
       name: monster_03_29
       rect:
         serializedVersion: 2
-        x: 644
-        y: 73
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 61
+        y: 37
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1016,12 +1016,12 @@ TextureImporter:
       name: monster_03_30
       rect:
         serializedVersion: 2
-        x: 692
-        y: 84
-        width: 23
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 122
+        y: 37
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1037,12 +1037,12 @@ TextureImporter:
       name: monster_03_31
       rect:
         serializedVersion: 2
-        x: 705
-        y: 73
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 183
+        y: 37
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1058,12 +1058,12 @@ TextureImporter:
       name: monster_03_32
       rect:
         serializedVersion: 2
-        x: 758
-        y: 85
-        width: 25
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 244
+        y: 37
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1079,12 +1079,12 @@ TextureImporter:
       name: monster_03_33
       rect:
         serializedVersion: 2
-        x: 766
-        y: 73
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 305
+        y: 37
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1100,12 +1100,12 @@ TextureImporter:
       name: monster_03_34
       rect:
         serializedVersion: 2
-        x: 819
-        y: 73
-        width: 25
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 366
+        y: 37
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1121,12 +1121,12 @@ TextureImporter:
       name: monster_03_35
       rect:
         serializedVersion: 2
-        x: 880
-        y: 73
-        width: 25
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 427
+        y: 37
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1142,12 +1142,12 @@ TextureImporter:
       name: monster_03_36
       rect:
         serializedVersion: 2
-        x: 942
-        y: 78
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 488
+        y: 37
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1163,12 +1163,12 @@ TextureImporter:
       name: monster_03_37
       rect:
         serializedVersion: 2
-        x: 944
-        y: 73
-        width: 21
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 549
+        y: 37
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1184,12 +1184,12 @@ TextureImporter:
       name: monster_03_38
       rect:
         serializedVersion: 2
-        x: 960
-        y: 78
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 610
+        y: 37
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1205,12 +1205,12 @@ TextureImporter:
       name: monster_03_39
       rect:
         serializedVersion: 2
-        x: 285
-        y: 51
-        width: 21
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 671
+        y: 37
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1226,12 +1226,12 @@ TextureImporter:
       name: monster_03_40
       rect:
         serializedVersion: 2
-        x: 427
-        y: 73
-        width: 12
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 732
+        y: 37
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1247,12 +1247,12 @@ TextureImporter:
       name: monster_03_41
       rect:
         serializedVersion: 2
-        x: 455
-        y: 75
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 793
+        y: 37
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1268,12 +1268,12 @@ TextureImporter:
       name: monster_03_42
       rect:
         serializedVersion: 2
-        x: 29
-        y: 36
-        width: 21
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 854
+        y: 37
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1289,12 +1289,12 @@ TextureImporter:
       name: monster_03_43
       rect:
         serializedVersion: 2
-        x: 86
-        y: 36
-        width: 27
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 915
+        y: 37
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1310,12 +1310,12 @@ TextureImporter:
       name: monster_03_44
       rect:
         serializedVersion: 2
-        x: 148
-        y: 36
-        width: 25
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1331,12 +1331,12 @@ TextureImporter:
       name: monster_03_45
       rect:
         serializedVersion: 2
-        x: 209
-        y: 36
-        width: 25
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 61
+        y: 0
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1352,12 +1352,12 @@ TextureImporter:
       name: monster_03_46
       rect:
         serializedVersion: 2
-        x: 277
-        y: 36
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 122
+        y: 0
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1373,12 +1373,12 @@ TextureImporter:
       name: monster_03_47
       rect:
         serializedVersion: 2
-        x: 327
-        y: 48
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 183
+        y: 0
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1394,12 +1394,12 @@ TextureImporter:
       name: monster_03_48
       rect:
         serializedVersion: 2
-        x: 336
-        y: 48
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 244
+        y: 0
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1415,12 +1415,12 @@ TextureImporter:
       name: monster_03_49
       rect:
         serializedVersion: 2
-        x: 339
-        y: 36
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 305
+        y: 0
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1436,12 +1436,12 @@ TextureImporter:
       name: monster_03_50
       rect:
         serializedVersion: 2
-        x: 382
-        y: 45
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 366
+        y: 0
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1457,12 +1457,12 @@ TextureImporter:
       name: monster_03_51
       rect:
         serializedVersion: 2
-        x: 391
-        y: 45
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 427
+        y: 0
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1478,12 +1478,12 @@ TextureImporter:
       name: monster_03_52
       rect:
         serializedVersion: 2
-        x: 400
-        y: 36
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 488
+        y: 0
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1499,12 +1499,12 @@ TextureImporter:
       name: monster_03_53
       rect:
         serializedVersion: 2
-        x: 446
-        y: 41
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 549
+        y: 0
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1520,12 +1520,12 @@ TextureImporter:
       name: monster_03_54
       rect:
         serializedVersion: 2
-        x: 455
-        y: 41
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 610
+        y: 0
+        width: 61
+        height: 37
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1537,871 +1537,10 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: monster_03_55
-      rect:
-        serializedVersion: 2
-        x: 461
-        y: 36
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f04468b07ceee2930800000000000000
-      internalID: 4120493247749833743
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_56
-      rect:
-        serializedVersion: 2
-        x: 520
-        y: 36
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 39165c04dbe2fe440800000000000000
-      internalID: 4967240304383320467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_57
-      rect:
-        serializedVersion: 2
-        x: 583
-        y: 36
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d2e06cce21fe04870800000000000000
-      internalID: 8665188547621686829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_58
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 36
-        width: 20
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fbc5ef785e15a3a80800000000000000
-      internalID: -8486380501555323713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_59
-      rect:
-        serializedVersion: 2
-        x: 701
-        y: 36
-        width: 20
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 394abfda1cd26c520800000000000000
-      internalID: 2721913334662931603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_60
-      rect:
-        serializedVersion: 2
-        x: 762
-        y: 36
-        width: 20
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 20b0875dec10afb20800000000000000
-      internalID: 3168847275664870146
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_61
-      rect:
-        serializedVersion: 2
-        x: 823
-        y: 36
-        width: 20
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7007f868620290320800000000000000
-      internalID: 2524584415956267015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_62
-      rect:
-        serializedVersion: 2
-        x: 883
-        y: 36
-        width: 21
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b5be89444df57cd70800000000000000
-      internalID: 9063318140394990427
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_63
-      rect:
-        serializedVersion: 2
-        x: 944
-        y: 36
-        width: 21
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9cc88c91e0bd36840800000000000000
-      internalID: 5216253647033765065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_64
-      rect:
-        serializedVersion: 2
-        x: 511
-        y: 40
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 324906510e5ac1c40800000000000000
-      internalID: 5484440828080329763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_65
-      rect:
-        serializedVersion: 2
-        x: 577
-        y: 40
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e4512439a054fb140800000000000000
-      internalID: 4737581244739622222
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_66
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 2
-        width: 19
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 26164d6eadd0a58f0800000000000000
-      internalID: -551112770572754590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_67
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 10
-        width: 11
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a9f85bb692d853730800000000000000
-      internalID: 3978241054891937690
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_68
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 15
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 17c701dfe4f9768d0800000000000000
-      internalID: -2853136677313938319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_69
-      rect:
-        serializedVersion: 2
-        x: 149
-        y: 14
-        width: 12
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 885a7925cb85c07c0800000000000000
-      internalID: -4103807594578598520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_70
-      rect:
-        serializedVersion: 2
-        x: 155
-        y: 19
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 985383df69abeb1a0800000000000000
-      internalID: -6791786030371949175
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_71
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 18
-        width: 12
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 46b42ee8ea217a0e0800000000000000
-      internalID: -2258816147172209820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_72
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 13
-        width: 13
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cac13a9b4d59f1a10800000000000000
-      internalID: 1882387910144236716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_73
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 11
-        width: 12
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a22007cf847809b20800000000000000
-      internalID: 3139157687819829802
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_74
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 18
-        width: 17
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 52479b2ca4c3645d0800000000000000
-      internalID: -3078707003468975067
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_75
-      rect:
-        serializedVersion: 2
-        x: 223
-        y: 6
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7053acea32c862c40800000000000000
-      internalID: 5487227280881759495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_76
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 12
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cc40bcb0b267c1c20800000000000000
-      internalID: 3178545364270253260
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_77
-      rect:
-        serializedVersion: 2
-        x: 282
-        y: 17
-        width: 12
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 72e219af9efd4d6f0800000000000000
-      internalID: -660657049292427737
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_78
-      rect:
-        serializedVersion: 2
-        x: 337
-        y: 10
-        width: 18
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b5a981db84ae6d470800000000000000
-      internalID: 8419174151546772059
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_79
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 8
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 756e596bead9aaf40800000000000000
-      internalID: 5740574048750265943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_80
-      rect:
-        serializedVersion: 2
-        x: 94
-        y: 2
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e48dfc92e75b670f0800000000000000
-      internalID: -1119507903882995634
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_81
-      rect:
-        serializedVersion: 2
-        x: 101
-        y: 10
-        width: 12
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 77456ccb409227ad0800000000000000
-      internalID: -2706055325772524425
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_82
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 4
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 597a116d34d5d8df0800000000000000
-      internalID: -176382264461908075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_83
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 5
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd1eb49faa1392bb0800000000000000
-      internalID: -4960378904175189537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_84
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 6
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b337193b22c5b68e0800000000000000
-      internalID: -1699163130290932933
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_85
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 4
-        width: 11
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a9bf63444d36297f0800000000000000
-      internalID: -607313236412925030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_86
-      rect:
-        serializedVersion: 2
-        x: 275
-        y: 3
-        width: 11
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 16649dbfddeba4190800000000000000
-      internalID: -7977353929311041951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_87
-      rect:
-        serializedVersion: 2
-        x: 284
-        y: 7
-        width: 13
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1aadd107b4a934a90800000000000000
-      internalID: -7330846119634806111
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_88
-      rect:
-        serializedVersion: 2
-        x: 332
-        y: 8
-        width: 12
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c8164a4be7aebb350800000000000000
-      internalID: 6033673955710361996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_89
-      rect:
-        serializedVersion: 2
-        x: 345
-        y: 4
-        width: 13
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e0e1bb81f7242f3f0800000000000000
-      internalID: -868558664485888498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_90
-      rect:
-        serializedVersion: 2
-        x: 393
-        y: 0
-        width: 26
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5108d91383a7a3060800000000000000
-      internalID: 6933988958059462677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_91
-      rect:
-        serializedVersion: 2
-        x: 454
-        y: 0
-        width: 26
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8b6c4ee07977c3730800000000000000
-      internalID: 3980187661362316984
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_92
-      rect:
-        serializedVersion: 2
-        x: 515
-        y: 0
-        width: 26
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b6e12850021e7600800000000000000
-      internalID: 467831203981026996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_93
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 0
-        width: 11
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 87c208028deba5630800000000000000
-      internalID: 3916652661419551864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_94
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 0
-        width: 26
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aeb0b1b7754b8db80800000000000000
-      internalID: -8369741619647542294
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: monster_03_95
-      rect:
-        serializedVersion: 2
-        x: 637
-        y: 0
-        width: 26
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf162f84190d97e80800000000000000
-      internalID: -8180277925729115652
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 235af61e5fd9a464fbc64cf091c7c45d
     internalID: 0
     vertices: []
     indices: 
@@ -2460,51 +1599,10 @@ TextureImporter:
       monster_03_52: 2798612141135682890
       monster_03_53: -4388514593447620531
       monster_03_54: 5151815814203333828
-      monster_03_55: 4120493247749833743
-      monster_03_56: 4967240304383320467
-      monster_03_57: 8665188547621686829
-      monster_03_58: -8486380501555323713
-      monster_03_59: 2721913334662931603
       monster_03_6: 2475160793336639134
-      monster_03_60: 3168847275664870146
-      monster_03_61: 2524584415956267015
-      monster_03_62: 9063318140394990427
-      monster_03_63: 5216253647033765065
-      monster_03_64: 5484440828080329763
-      monster_03_65: 4737581244739622222
-      monster_03_66: -551112770572754590
-      monster_03_67: 3978241054891937690
-      monster_03_68: -2853136677313938319
-      monster_03_69: -4103807594578598520
       monster_03_7: 1600542632526969496
-      monster_03_70: -6791786030371949175
-      monster_03_71: -2258816147172209820
-      monster_03_72: 1882387910144236716
-      monster_03_73: 3139157687819829802
-      monster_03_74: -3078707003468975067
-      monster_03_75: 5487227280881759495
-      monster_03_76: 3178545364270253260
-      monster_03_77: -660657049292427737
-      monster_03_78: 8419174151546772059
-      monster_03_79: 5740574048750265943
       monster_03_8: 1838617195202498754
-      monster_03_80: -1119507903882995634
-      monster_03_81: -2706055325772524425
-      monster_03_82: -176382264461908075
-      monster_03_83: -4960378904175189537
-      monster_03_84: -1699163130290932933
-      monster_03_85: -607313236412925030
-      monster_03_86: -7977353929311041951
-      monster_03_87: -7330846119634806111
-      monster_03_88: 6033673955710361996
-      monster_03_89: -868558664485888498
       monster_03_9: 6116172929561961310
-      monster_03_90: 6933988958059462677
-      monster_03_91: 3980187661362316984
-      monster_03_92: 467831203981026996
-      monster_03_93: 3916652661419551864
-      monster_03_94: -8369741619647542294
-      monster_03_95: -8180277925729115652
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

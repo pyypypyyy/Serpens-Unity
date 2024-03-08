@@ -36176,6 +36176,8 @@ GameObject:
   - component: {fileID: 1515921162}
   - component: {fileID: 1515921161}
   - component: {fileID: 1515921160}
+  - component: {fileID: 1515921164}
+  - component: {fileID: 1515921165}
   - component: {fileID: 1515921159}
   m_Layer: 6
   m_Name: Enemy
@@ -36207,6 +36209,39 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   damage: 50
+  OnMovementInput:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1515921165}
+        m_TargetAssemblyTypeName: EnemyController, Assembly-CSharp
+        m_MethodName: set_MovementInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnAttack:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1515921165}
+        m_TargetAssemblyTypeName: EnemyController, Assembly-CSharp
+        m_MethodName: Attack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  player: {fileID: 451128793}
+  chaseDistance: 3
+  attackDistance: 0.8
 --- !u!61 &1515921160
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36244,8 +36279,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.21, y: 0.29}
+    pivot: {x: 0.65, y: 0.3}
+    oldSize: {x: 0.61, y: 0.37}
     newSize: {x: 0.21, y: 0.29}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -36347,6 +36382,43 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1515921164
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515921158}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a4a65dbd69f58434291af8d726e935c2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1515921165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515921158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87f5b3cd8f000664a93f1205302d066c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentSpeed: 1
+  isAttack: 1
+  attackCoolDuration: 1
 --- !u!1 &1547620102
 GameObject:
   m_ObjectHideFlags: 0
