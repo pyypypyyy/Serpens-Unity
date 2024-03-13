@@ -209,7 +209,7 @@ GameObject:
   - component: {fileID: 216961291}
   - component: {fileID: 216961293}
   - component: {fileID: 216961292}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -340,7 +340,7 @@ GameObject:
   - component: {fileID: 307365484}
   - component: {fileID: 307365486}
   - component: {fileID: 307365485}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock-monument
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -396,7 +396,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.019282103, y: 0.7240695}
+  m_Offset: {x: 0.019282103, y: 0.8525662}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -406,7 +406,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.3772368, y: 1.2594736}
+  m_Size: {x: 1.3772368, y: 1.516467}
   m_EdgeRadius: 0
 --- !u!212 &307365486
 SpriteRenderer:
@@ -650,7 +650,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 5}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1282610629}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &451128794
@@ -880,7 +881,7 @@ GameObject:
   - component: {fileID: 510371597}
   - component: {fileID: 510371599}
   - component: {fileID: 510371598}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tree-dried
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1011,7 +1012,7 @@ GameObject:
   - component: {fileID: 523126825}
   - component: {fileID: 523126827}
   - component: {fileID: 523126826}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tree-orange (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1142,7 +1143,7 @@ GameObject:
   - component: {fileID: 612524570}
   - component: {fileID: 612524572}
   - component: {fileID: 612524571}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35197,7 +35198,7 @@ GameObject:
   - component: {fileID: 1122590938}
   - component: {fileID: 1122590940}
   - component: {fileID: 1122590939}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tree-orange (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35327,13 +35328,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1141811316}
   - component: {fileID: 1141811317}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1141811316
 Transform:
   m_ObjectHideFlags: 0
@@ -35368,7 +35369,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1141811315}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f6016c6ba43bca94b80f7c4fc7181c53, type: 3}
   m_Name: 
@@ -35549,12 +35550,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282610626}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 0.5669, y: 0.5669, z: 0.5669}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.4100001, z: -2.238}
+  m_LocalScale: {x: 0.18896668, y: 0.18896668, z: 0.11338001}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 451128793}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1282610631
 MonoBehaviour:
@@ -35828,7 +35829,7 @@ GameObject:
   - component: {fileID: 1478281173}
   - component: {fileID: 1478281175}
   - component: {fileID: 1478281174}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35959,7 +35960,7 @@ GameObject:
   - component: {fileID: 1487070576}
   - component: {fileID: 1487070578}
   - component: {fileID: 1487070577}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bush-tall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36179,6 +36180,7 @@ GameObject:
   - component: {fileID: 1515921164}
   - component: {fileID: 1515921165}
   - component: {fileID: 1515921159}
+  - component: {fileID: 1515921166}
   m_Layer: 6
   m_Name: Enemy
   m_TagString: Untagged
@@ -36451,6 +36453,34 @@ MonoBehaviour:
   isKonckback: 1
   KonckbackForce: 2.5
   KonckbackForceDuration: 0.1
+--- !u!114 &1515921166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515921158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1
 --- !u!1 &1547620102
 GameObject:
   m_ObjectHideFlags: 0
@@ -36462,7 +36492,7 @@ GameObject:
   - component: {fileID: 1547620103}
   - component: {fileID: 1547620105}
   - component: {fileID: 1547620104}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tree-orange (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36593,7 +36623,7 @@ GameObject:
   - component: {fileID: 1591602101}
   - component: {fileID: 1591602103}
   - component: {fileID: 1591602102}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tree-orange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36802,7 +36832,7 @@ GameObject:
   - component: {fileID: 1776569401}
   - component: {fileID: 1776569403}
   - component: {fileID: 1776569402}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rock (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36922,6 +36952,93 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1842600398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1842600400}
+  - component: {fileID: 1842600399}
+  m_Layer: 0
+  m_Name: A*
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1842600399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842600398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78396926cbbfc4ac3b48fc5fc34a87d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  data:
+    dataString: UEsDBBQAAAgIAAAAIewU9h9hWwIAABEFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VEtz2jAQ/iuMzqUDBELorXUS0gOBCenk4ouQ1liDLHn04JXhv3cl29ih0xPLt9/ufvuQP4lQtgTmtJkbwReaA/nRI8Em33qt8wWOdKvVWpyh4XwI7vJAopHzRp3QiA9DmNUFOCPYT7WVgTxA0CuRaVM88S0k2jqLcEalBXQZ7UK0QuizR47405+FkBNao2mwzmjNBr0LmgyUA9NSG2JDq1heMUmLEniQ3JJHD03aUaQpbKZmBOFMSylsrYS4Uxk7TWhpPfaBBC4odhbLB34OYpu7kK4bvMwyC66WZOjpURgcUJWV/NLV1Apqd5WuPZU+1BlN7qOmKuniH39/GN2Z0cVLU3c4CDVcLtjujZ4Yta4z1i78+FW4Vwcqd3Qj4SMH9arnRnvF0emMD6Hewuix/XttLcmB7Vq8knoD+vL/ywk9XGL3x0SKYhNc38cVsJY6zjuuHgxu5jcKjodh6xSIBhV/LLzTbfeCasezMNahq+5SBXkb7U2gkmc0wuSZd4k2CiJaay5BUelOK8zibjd44+tUvfE80/BU6tq1r3kBNyERbvmDwY1rpQ/XXdlcHxZg86V3UihoRQfHK44p0UpVB9YdSRO29iajrBO29YJ/vSwyze7GsJmy+/GGDbPJQ/9uxKeTyfR+NoYZZ+MZiacnFPZJ5aoSWo8Hl6ba5ArPrPmC9OaGlvHYuaGHuTgXujNyoTK9ZgZALasMV+FgsAg+Sv7EBQ5oDc4JFddNPlMiNdsBT6+J0tjp09EZmrZZUlKKvXYBSUkSPxkpCfD1lFcG9gIOoXiT7EIufwFQSwMEFAAACAgAAAAh7F6UYv5tAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tJJ5mrFJapJ5splJUrJhmqmFrrFRirmpqbmZpUmqZUqyiaVSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAAAh7BT2H2FbAgAAEQUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAAAh7F6UYv5tAAAAeAAAAAkAJAAAAAAAAAAAAAAAqAIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAABgAwAAAAA=
+    upgradeData: 
+    file_cachedStartup: {fileID: 0}
+    data_cachedStartup: 
+    cacheStartup: 0
+  showNavGraphs: 0
+  showUnwalkableNodes: 1
+  debugMode: 0
+  debugFloor: 0
+  debugRoof: 1
+  manualDebugFloorRoof: 0
+  showSearchTree: 0
+  unwalkableNodeDebugSize: 0.3
+  logPathResults: 1
+  maxNearestNodeDistance: 100
+  scanOnStartup: 1
+  fullGetNearestSearch: 0
+  prioritizeGraphs: 0
+  prioritizeGraphsLimit: 1
+  colorSettings:
+    _SolidColor: {r: 0.11764706, g: 0.4, b: 0.7882353, a: 0.9}
+    _UnwalkableNode: {r: 1, g: 0, b: 0, a: 0.5}
+    _BoundsHandles: {r: 0.29, g: 0.454, b: 0.741, a: 0.9}
+    _ConnectionLowLerp: {r: 0, g: 1, b: 0, a: 0.5}
+    _ConnectionHighLerp: {r: 1, g: 0, b: 0, a: 0.5}
+    _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
+    _AreaColors:
+    - {r: 0, g: 0, b: 0, a: 0}
+  tagNames: []
+  heuristic: 2
+  heuristicScale: 1
+  threadCount: 1
+  maxFrameTime: 1
+  batchGraphUpdates: 0
+  graphUpdateBatchingInterval: 0.2
+  euclideanEmbedding:
+    mode: 0
+    seed: 0
+    pivotPointRoot: {fileID: 0}
+    spreadOutCount: 1
+  showGraphs: 1
+--- !u!4 &1842600400
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842600398}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1875672893
 GameObject:
   m_ObjectHideFlags: 0
@@ -36933,7 +37050,7 @@ GameObject:
   - component: {fileID: 1875672894}
   - component: {fileID: 1875672896}
   - component: {fileID: 1875672895}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tree-dried (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37057,7 +37174,6 @@ SpriteRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1282610629}
   - {fileID: 1238788927}
   - {fileID: 1463527200}
   - {fileID: 451128793}
@@ -37065,3 +37181,4 @@ SceneRoots:
   - {fileID: 1119094089}
   - {fileID: 1515921163}
   - {fileID: 1414991769}
+  - {fileID: 1842600400}
