@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using Pathfinding;
 
 public class Enemy : Character
 {
@@ -13,6 +14,12 @@ public class Enemy : Character
     [SerializeField] private Transform player;
     [SerializeField] private float chaseDistance = 3f;
     [SerializeField] private float attackDistance = 0.8f;
+
+    private Seeker seeker;
+    private List<Vector3> pathPointList;
+    private int currentIndex = 0;//Pathpoint Index
+    private float pathGenerateInterval = 0.5f;//Paths produced every 0.5 seconds
+    private float pathGenerateTimer = 0f;
 
     [Header("attack")]
     public float meleeAttackDamage;
@@ -26,6 +33,7 @@ public class Enemy : Character
     private void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
+        seeker = GetComponent<Seeker>();
     }
     private void Update()
     {
@@ -35,7 +43,12 @@ public class Enemy : Character
         
         if (distance < chaseDistance)
         {
-            if(distance <= attackDistance)
+            AutuoPath();
+
+            if (pathPointList == null)
+                return;
+
+            if (distance <= attackDistance)
             {
                 //attack player
                 OnMovementInput?.Invoke(Vector2.zero);//stop move
@@ -59,14 +72,49 @@ public class Enemy : Character
             }
             else
             {
-                Vector2 direction = player.position - transform.position;
-                OnMovementInput?.Invoke(direction.normalized);
+                //Vector2 direction = player.position - transform.position;
+                Vector2 direction = (pathPointList[currentIndex] - transform.position).normalized;
+                OnMovementInput?.Invoke(direction);
             }
         }
         else
         {
             OnMovementInput?.Invoke(Vector2.zero);
         }
+    }
+    //automatic pathfinding
+    private void AutuoPath()
+    {
+        pathGenerateTimer += Time.deltaTime;
+        //Get path points at regular intervals
+        if (pathGenerateTimer >= pathGenerateInterval)
+        {
+            GeneratePath(player.position);
+            pathGenerateTimer = 0;//reset timer
+        }
+        //Path calculation when path list is empty
+        if (pathPointList == null || pathPointList.Count <= 0 )
+        {
+            GeneratePath(player.position);
+        }
+        //When the enemy reaches the current path point, increment the index currentIndex for path calculation
+        else if (Vector2.Distance(transform.position, pathPointList[currentIndex]) <= 0.1f)
+        {
+            currentIndex++;
+            if(currentIndex >= pathPointList.Count)
+                GeneratePath(player.position);
+        }
+    }
+    //Get Path Points
+    private void GeneratePath(Vector3 target)
+    {
+        currentIndex = 0;
+        //Start, Finish, Callback Functions
+        seeker.StartPath(transform.position, target, Path =>
+        {
+            pathPointList = Path.vectorPath;
+        });
+        
     }
 
     private void OnTriggerStay2D(Collider2D collision)
