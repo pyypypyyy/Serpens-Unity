@@ -2,17 +2,32 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHurtState : MonoBehaviour
+public class EnemyHurtState : IState
 {
-    // Start is called before the first frame update
-    void Start()
+    private Enemy enemy;
+
+    public EnemyHurtState(Enemy enemy)
     {
-        
+        this.enemy = enemy;
+    }
+    public void OnEnter()
+    {
+        throw new System.NotImplementedException();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnExit()
     {
-        
+        throw new System.NotImplementedException();
+    }
+
+    public void OnFixedUpdate()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void OnUpdate()
+    {
+        throw new System.NotImplementedException();
     }
 }
+    

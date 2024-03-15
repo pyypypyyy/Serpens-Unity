@@ -35,7 +35,7 @@ public class Player: Character
         foreach(Collider2D hitCollider in hitColliders)
         {
             hitCollider.GetComponent<Character>().TakeDamage(meleeAttackDamage);
-            hitCollider.GetComponent<EnemyController>().Knockback(transform.position);
+            //hitCollider.GetComponent<EnemyController>().Knockback(transform.position);
         }
     }
 

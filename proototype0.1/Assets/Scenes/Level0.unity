@@ -35996,7 +35996,6 @@ GameObject:
   - component: {fileID: 1515921161}
   - component: {fileID: 1515921160}
   - component: {fileID: 1515921164}
-  - component: {fileID: 1515921165}
   - component: {fileID: 1515921159}
   - component: {fileID: 1515921166}
   m_Layer: 6
@@ -36025,7 +36024,7 @@ MonoBehaviour:
   onHurt:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1515921165}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: EnemyController, Assembly-CSharp
         m_MethodName: EnemyHurt
         m_Mode: 1
@@ -36040,7 +36039,7 @@ MonoBehaviour:
   onDeath:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1515921165}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: EnemyController, Assembly-CSharp
         m_MethodName: EnemyDead
         m_Mode: 1
@@ -36052,45 +36051,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  damage: 50
-  OnMovementInput:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1515921165}
-        m_TargetAssemblyTypeName: EnemyController, Assembly-CSharp
-        m_MethodName: set_MovementInput
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnAttack:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1515921165}
-        m_TargetAssemblyTypeName: EnemyController, Assembly-CSharp
-        m_MethodName: Attack
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   player: {fileID: 451128793}
+  currentSpeed: 0
   chaseDistance: 3
   attackDistance: 0.6
   meleeAttackDamage: 10
+  isAttack: 1
+  distance: 0
   playerLayer:
     serializedVersion: 2
     m_Bits: 128
   AttackCooldownDuration: 5
+  damage: 50
+  sr: {fileID: 0}
+  rb: {fileID: 0}
+  animator: {fileID: 0}
+  enemyCollider: {fileID: 0}
 --- !u!61 &1515921160
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36253,24 +36229,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1515921165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1515921158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87f5b3cd8f000664a93f1205302d066c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentSpeed: 0.8
-  isAttack: 1
-  attackCoolDuration: 1
-  isKonckback: 1
-  KonckbackForce: 2.5
-  KonckbackForceDuration: 0.1
 --- !u!114 &1515921166
 MonoBehaviour:
   m_ObjectHideFlags: 0

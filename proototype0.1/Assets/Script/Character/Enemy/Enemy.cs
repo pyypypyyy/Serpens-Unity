@@ -4,86 +4,158 @@ using UnityEngine;
 using UnityEngine.Events;
 using Pathfinding;
 
+//Enumeration of enemy states
+public enum EnemyStateType
+{
+    Idle, Chase, Attack, Hurt, Death
+}
+
 public class Enemy : Character
 {
-    public float damage;
+    [Header("target")]
+    public Transform player;
 
-    public UnityEvent<Vector2> OnMovementInput;
-    public UnityEvent OnAttack;
+    [Header("move chase")]
+    [SerializeField] public float currentSpeed = 0;
 
-    [SerializeField] private Transform player;
-    [SerializeField] private float chaseDistance = 3f;
-    [SerializeField] private float attackDistance = 0.8f;
+    public Vector2 MovementInput { get; set; }
+
+    
+    public float chaseDistance = 3f;
+    public float attackDistance = 0.8f;
 
     private Seeker seeker;
-    private List<Vector3> pathPointList;
-    private int currentIndex = 0;//Pathpoint Index
+    [HideInInspector] public List<Vector3> pathPointList;
+    [HideInInspector] public int currentIndex = 0;//Pathpoint Index
     private float pathGenerateInterval = 0.5f;//Paths produced every 0.5 seconds
     private float pathGenerateTimer = 0f;
 
     [Header("attack")]
     public float meleeAttackDamage;
+    public bool isAttack = true;
+    [HideInInspector] public float distance;
     public LayerMask playerLayer;
     public float AttackCooldownDuration = 2f;
 
-    private bool isAttack = true;
+    
+    
+    public float damage;
+    
+    [HideInInspector] public SpriteRenderer sr;
+    [HideInInspector] public Rigidbody2D rb;
+    [HideInInspector] public Animator animator;
+    [HideInInspector] public Collider2D enemyCollider;
 
-    private SpriteRenderer sr;
+    private IState currentState;
+
+    //Dictionary
+    private Dictionary<EnemyStateType, IState> states = new Dictionary<EnemyStateType, IState>();
 
     private void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
         seeker = GetComponent<Seeker>();
+        rb = GetComponent<Rigidbody2D>();
+        enemyCollider = GetComponent<Collider2D>();
+        animator = GetComponent<Animator>();
+
+        //Instantiating the enemy state
+        states.Add(EnemyStateType.Idle, new EnemyIdleState(this));
+        states.Add(EnemyStateType.Chase, new EnemyChaseState(this));
+        states.Add(EnemyStateType.Attack, new EnemyAttackState(this));
+        states.Add(EnemyStateType.Hurt, new EnemyHurtState(this));
+        states.Add(EnemyStateType.Death, new EnemyDeathState(this));
+
+        TransitionState(EnemyStateType.Idle);
+    }
+
+    //Switch Enemy Status
+    public void TransitionState(EnemyStateType type)
+    {
+        if (currentState != null)
+        {
+            currentState.OnExit();
+
+        }
+        //Find the corresponding state by dictionary key, enter a new state
+        currentState = states[type];
+        currentState.OnEnter();
     }
     private void Update()
     {
-        if (player == null)
-            return;
-        float distance = Vector2.Distance(player.position, transform.position);
-        
-        if (distance < chaseDistance)
+        currentState.OnUpdate();
+
+        //animation state machine
+        //if (player == null)
+        //    return;
+        //float distance = Vector2.Distance(player.position, transform.position);
+
+        //if (distance < chaseDistance)
+        //{
+        //    AutuoPath();
+
+        //    if (pathPointList == null)
+        //        return;
+
+        //    if (distance <= attackDistance)
+        //    {
+        //        attack player
+        //        OnMovementInput?.Invoke(Vector2.zero);//stop move
+        //        if (isAttack)
+        //        {
+        //            isAttack = false;
+        //            OnAttack?.Invoke();
+
+        //        }
+
+        //        player flip
+        //        float x = player.position.x - transform.position.x;
+        //        if (x > 0)
+        //        {
+        //            sr.flipX = true;
+        //        }
+        //        else
+        //        {
+        //            sr.flipX = false;
+        //        }
+        //    }
+        //    else
+        //    {
+
+        //        Vector2 direction = (pathPointList[currentIndex] - transform.position).normalized;
+        //        OnMovementInput?.Invoke(direction);
+        //    }
+        //}
+        //else
+        //{
+        //    OnMovementInput?.Invoke(Vector2.zero);
+        //}
+    }
+
+    private void FixedUpdate()
+    {
+        currentState.OnFixedUpdate();
+    }
+
+    //Determine if the player is in chase range
+    public void GetPlayerTransform()
+    {
+        Collider2D[] chaseCollider = Physics2D.OverlapCircleAll(transform.position, chaseDistance, playerLayer);
+
+        if (chaseCollider.Length > 0 )
         {
-            AutuoPath();
-
-            if (pathPointList == null)
-                return;
-
-            if (distance <= attackDistance)
-            {
-                //attack player
-                OnMovementInput?.Invoke(Vector2.zero);//stop move
-                if(isAttack)
-                {
-                    isAttack = false;
-                    OnAttack?.Invoke();
-                    //StartCoroutine(nameof(AttackCooldownCoroutine));
-                }
-                
-                //player flip
-                float x = player.position.x - transform.position.x;
-                if(x > 0)
-                {
-                    sr.flipX = true;
-                }
-                else
-                {
-                    sr.flipX=false;
-                }
-            }
-            else
-            {
-                //Vector2 direction = player.position - transform.position;
-                Vector2 direction = (pathPointList[currentIndex] - transform.position).normalized;
-                OnMovementInput?.Invoke(direction);
-            }
+            player = chaseCollider[0].transform;
+            distance = Vector2.Distance(player.position, transform.position);
+            
         }
         else
         {
-            OnMovementInput?.Invoke(Vector2.zero);
+            player = null;
         }
     }
+
     //automatic pathfinding
-    private void AutuoPath()
+    public void AutoPath()
     {
         pathGenerateTimer += Time.deltaTime;
         //Get path points at regular intervals
