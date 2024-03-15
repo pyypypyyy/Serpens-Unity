@@ -36024,8 +36024,8 @@ MonoBehaviour:
   onHurt:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: EnemyController, Assembly-CSharp
+      - m_Target: {fileID: 1515921159}
+        m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
         m_MethodName: EnemyHurt
         m_Mode: 1
         m_Arguments:
@@ -36039,9 +36039,9 @@ MonoBehaviour:
   onDeath:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: EnemyController, Assembly-CSharp
-        m_MethodName: EnemyDead
+      - m_Target: {fileID: 1515921159}
+        m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
+        m_MethodName: EnemyDie
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -36052,16 +36052,22 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   player: {fileID: 451128793}
-  currentSpeed: 0
+  currentSpeed: 1
   chaseDistance: 3
   attackDistance: 0.6
+  pathPointList: []
+  currentIndex: 0
   meleeAttackDamage: 10
   isAttack: 1
   distance: 0
   playerLayer:
     serializedVersion: 2
     m_Bits: 128
-  AttackCooldownDuration: 5
+  AttackCooldownDuration: 2
+  isHurt: 0
+  isKnockback: 1
+  knockbackForce: 2
+  knockbackForceDuration: 0.1
   damage: 50
   sr: {fileID: 0}
   rb: {fileID: 0}

@@ -12,21 +12,22 @@ public class EnemyDeathState : IState
     }
     public void OnEnter()
     {
-        throw new System.NotImplementedException();
+        enemy.animator.Play("Die");
+        enemy.rb.velocity = Vector2.zero;
+        enemy.enemyCollider.enabled = false;
     }
-
-    public void OnExit()
-    {
-        throw new System.NotImplementedException();
-    }
-
-    public void OnFixedUpdate()
-    {
-        throw new System.NotImplementedException();
-    }
-
     public void OnUpdate()
     {
-        throw new System.NotImplementedException();
+
     }
+   
+     public void OnFixedUpdate()
+    {
+
+    }
+    public void OnExit()
+    {
+    }
+
+
 }

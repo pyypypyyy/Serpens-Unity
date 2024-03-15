@@ -37,6 +37,13 @@ public class Enemy : Character
     public LayerMask playerLayer;
     public float AttackCooldownDuration = 2f;
 
+    [Header("hurt")]
+    public bool isHurt;
+    public bool isKnockback = true;
+    public float knockbackForce = 10f;
+    public float knockbackForceDuration = 0.1f;
+
+
     
     
     public float damage;
@@ -208,10 +215,30 @@ public class Enemy : Character
         }
     }
 
+    public void AttackCooldown()
+    {
+        StartCoroutine(nameof(AttackCooldownCoroutine));
+    }
+
     IEnumerator AttackCooldownCoroutine()
     {
         yield return new WaitForSeconds(AttackCooldownDuration);
         isAttack = true;
+    }
+
+    public void EnemyHurt()
+    {
+        isHurt = true;
+    }
+
+    public void EnemyDie()
+    {
+        TransitionState(EnemyStateType.Death);
+    }
+
+    public void DestoryEnemy()
+    {
+        Destroy(this.gameObject); 
     }
 
     private void OnDrawGizmosSelected()

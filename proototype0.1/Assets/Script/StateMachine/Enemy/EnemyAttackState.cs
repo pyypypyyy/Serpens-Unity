@@ -17,12 +17,17 @@ public class EnemyAttackState : IState
         {
             enemy.animator.Play("Attack");
             enemy.isAttack = false;
+            enemy.AttackCooldown();
         }
        
     }
 
      public void OnUpdate()
     {
+        if (enemy.isHurt)
+        {
+            enemy.TransitionState(EnemyStateType.Hurt);
+        }
         enemy.rb.velocity = Vector2.zero;
 
         float x =enemy.player.position.x - enemy.transform.position.x;

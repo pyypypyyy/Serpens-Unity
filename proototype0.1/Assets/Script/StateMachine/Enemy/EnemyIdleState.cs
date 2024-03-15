@@ -18,6 +18,12 @@ public class EnemyIdleState : IState
 
      public void OnUpdate()
     {
+        if (enemy.isHurt)
+        {
+            enemy.TransitionState(EnemyStateType.Hurt);
+        }
+
+
         enemy.GetPlayerTransform();
 
         if (enemy.player != null)

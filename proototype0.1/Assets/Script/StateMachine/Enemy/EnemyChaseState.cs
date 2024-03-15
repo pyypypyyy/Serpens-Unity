@@ -17,6 +17,12 @@ public class EnemyChaseState : IState
 
      public void OnUpdate()
     {
+        if (enemy.isHurt)
+        {
+            enemy.TransitionState(EnemyStateType.Hurt);
+        }
+
+
         enemy.GetPlayerTransform();
 
         enemy.AutoPath();
