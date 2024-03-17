@@ -50,32 +50,13 @@ public class EnemyChaseState : IState
     
      public void OnFixedUpdate()
     {
-        Move();
+        enemy.Move();
     }
     public void OnExit()
     {
        
     }
 
-    void Move()
-    {
-        if (enemy.MovementInput.magnitude > 0.1f && enemy.currentSpeed >= 0)
-        {
-            enemy.rb.velocity = enemy.MovementInput * enemy.currentSpeed;
-            if (enemy.MovementInput.x < 0)//left
-            {
-                enemy.sr.flipX = false;
-            }
-            if (enemy.MovementInput.x > 0)//right
-            {
-                enemy.sr.flipX = true;
-            }
-        }
-        else
-        {
-            enemy.rb.velocity = Vector2.zero;
-        }
-    }
-
+   
 
 }

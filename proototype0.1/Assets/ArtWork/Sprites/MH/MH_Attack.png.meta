@@ -1,0 +1,688 @@
+fileFormatVersion: 2
+guid: 79223f2441f19eb44aabf5488adaf1f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4543548980112320832
+    second: MH_Attack_0
+  - first:
+      213: 5893752236222032022
+    second: MH_Attack_1
+  - first:
+      213: -6502951317396780264
+    second: MH_Attack_2
+  - first:
+      213: -375536782199574613
+    second: MH_Attack_3
+  - first:
+      213: -1869482575324569549
+    second: MH_Attack_4
+  - first:
+      213: 1269811216005116925
+    second: MH_Attack_5
+  - first:
+      213: 8397753407822784774
+    second: MH_Attack_6
+  - first:
+      213: -8946829374610237863
+    second: MH_Attack_7
+  - first:
+      213: -41141927485769800
+    second: MH_Attack_8
+  - first:
+      213: 7073402627280269998
+    second: MH_Attack_9
+  - first:
+      213: -7494846081457442611
+    second: MH_Attack_10
+  - first:
+      213: 3251537844251367052
+    second: MH_Attack_11
+  - first:
+      213: 4030400376375264397
+    second: MH_Attack_12
+  - first:
+      213: -7692601061742638372
+    second: MH_Attack_13
+  - first:
+      213: -1942468041563648262
+    second: MH_Attack_14
+  - first:
+      213: 3471498357532476446
+    second: MH_Attack_15
+  - first:
+      213: -6691171211393801082
+    second: MH_Attack_16
+  - first:
+      213: 4906658780337366669
+    second: MH_Attack_17
+  - first:
+      213: -2651414792718027103
+    second: MH_Attack_18
+  - first:
+      213: 1322096075436385574
+    second: MH_Attack_19
+  - first:
+      213: -1002878373598533509
+    second: MH_Attack_20
+  - first:
+      213: -1720692125198658046
+    second: MH_Attack_21
+  - first:
+      213: -7456382374707077894
+    second: MH_Attack_22
+  - first:
+      213: 977865365894570785
+    second: MH_Attack_23
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MH_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3463
+        width: 453
+        height: 1021
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049ee2389bded0f30800000000000000
+      internalID: 4543548980112320832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 3460
+        width: 453
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698ad22be60dac150800000000000000
+      internalID: 5893752236222032022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 3458
+        width: 464
+        height: 1026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b08ee1b30e0c5a0800000000000000
+      internalID: -6502951317396780264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 3455
+        width: 451
+        height: 1029
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafa6e84943d9caf0800000000000000
+      internalID: -375536782199574613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 3460
+        width: 451
+        height: 1028
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3302fffa0834e06e0800000000000000
+      internalID: -1869482575324569549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 2405
+        y: 3459
+        width: 461
+        height: 1022
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3bacdb2964f9110800000000000000
+      internalID: 1269811216005116925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 2891
+        y: 3479
+        width: 500
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6096a903b30da8470800000000000000
+      internalID: 8397753407822784774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 3441
+        y: 3509
+        width: 482
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956935c061a76d380800000000000000
+      internalID: -8946829374610237863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2566
+        width: 489
+        height: 875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7f5da82a5dd6ff0800000000000000
+      internalID: -41141927485769800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 2590
+        width: 480
+        height: 824
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2fa588636c92260800000000000000
+      internalID: 7073402627280269998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 2646
+        width: 523
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc03084c235fcf790800000000000000
+      internalID: -7494846081457442611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 2580
+        width: 486
+        height: 842
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8697542178cf1d20800000000000000
+      internalID: 3251537844251367052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 2489
+        width: 445
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84c270d9cbdee730800000000000000
+      internalID: 4030400376375264397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 2604
+        y: 2414
+        width: 493
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda890c67146e3590800000000000000
+      internalID: -7692601061742638372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 2398
+        width: 544
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afecc0b9b97fa05e0800000000000000
+      internalID: -1942468041563648262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1496
+        width: 551
+        height: 1027
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1443170d5d3d2030800000000000000
+      internalID: 3471498357532476446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1526
+        width: 564
+        height: 1028
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6846d8d0c3f2423a0800000000000000
+      internalID: -6691171211393801082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1539
+        width: 528
+        height: 1027
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d866f040a24f71440800000000000000
+      internalID: 4906658780337366669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 1459
+        width: 466
+        height: 1010
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a673d73b48443bd0800000000000000
+      internalID: -2651414792718027103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 2343
+        y: 1416
+        width: 493
+        height: 1005
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625e2573067095210800000000000000
+      internalID: 1322096075436385574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 2830
+        y: 1350
+        width: 512
+        height: 1005
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78ecb4ce6f0512f0800000000000000
+      internalID: -1002878373598533509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 3426
+        y: 1309
+        width: 452
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206d8b5f0afde18e0800000000000000
+      internalID: -1720692125198658046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 408
+        width: 453
+        height: 1021
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afcd91e5cbb958890800000000000000
+      internalID: -7456382374707077894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 423
+        width: 453
+        height: 1021
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123ad4c8e53129d00800000000000000
+      internalID: 977865365894570785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

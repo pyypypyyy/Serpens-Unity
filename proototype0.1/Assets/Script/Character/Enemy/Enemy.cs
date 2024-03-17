@@ -7,13 +7,18 @@ using Pathfinding;
 //Enumeration of enemy states
 public enum EnemyStateType
 {
-    Idle, Chase, Attack, Hurt, Death
+    Idle, Patrol, Chase, Attack, Hurt, Death
 }
 
 public class Enemy : Character
 {
     [Header("target")]
     public Transform player;
+
+    [Header("patrol")]
+    public float IdleDuration;
+    public Transform[] patrolPoints;
+    public int targetPointIndex = 0;
 
     [Header("move chase")]
     [SerializeField] public float currentSpeed = 0;
@@ -72,6 +77,7 @@ public class Enemy : Character
         states.Add(EnemyStateType.Attack, new EnemyAttackState(this));
         states.Add(EnemyStateType.Hurt, new EnemyHurtState(this));
         states.Add(EnemyStateType.Death, new EnemyDeathState(this));
+        states.Add(EnemyStateType.Patrol, new EnemyPatrolState(this));
 
         TransitionState(EnemyStateType.Idle);
     }
@@ -92,7 +98,7 @@ public class Enemy : Character
     {
         currentState.OnUpdate();
 
-        //animation state machine
+        #region animation state machine
         //if (player == null)
         //    return;
         //float distance = Vector2.Distance(player.position, transform.position);
@@ -137,6 +143,7 @@ public class Enemy : Character
         //{
         //    OnMovementInput?.Invoke(Vector2.zero);
         //}
+        #endregion
     }
 
     private void FixedUpdate()
@@ -185,7 +192,7 @@ public class Enemy : Character
         }
     }
     //Get Path Points
-    private void GeneratePath(Vector3 target)
+    public void GeneratePath(Vector3 target)
     {
         currentIndex = 0;
         //Start, Finish, Callback Functions
@@ -195,6 +202,27 @@ public class Enemy : Character
         });
         
     }
+    public void Move()
+    {
+        if (MovementInput.magnitude > 0.1f && currentSpeed >= 0)
+        {
+            rb.velocity = MovementInput * currentSpeed;
+            if (MovementInput.x < 0)//left
+            {
+                sr.flipX = false;
+            }
+            if (MovementInput.x > 0)//right
+            {
+                sr.flipX = true;
+            }
+        }
+        else
+        {
+            rb.velocity = Vector2.zero;
+        }
+    }
+
+
 
     private void OnTriggerStay2D(Collider2D collision)
     {

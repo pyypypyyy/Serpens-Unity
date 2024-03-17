@@ -6,6 +6,9 @@ public class EnemyIdleState : IState
 {
     private Enemy enemy;
 
+    private float Timer = 0;
+
+
     public EnemyIdleState(Enemy enemy)
     {
         this.enemy = enemy;
@@ -35,6 +38,18 @@ public class EnemyIdleState : IState
             else if (enemy.distance <= enemy.attackDistance)
             {
                 enemy.TransitionState(EnemyStateType.Attack);
+            }
+        }
+        else
+        {
+            if(Timer <= enemy.IdleDuration)
+            {
+                Timer += Time.deltaTime;
+            }
+            else
+            {
+                Timer = 0;
+                enemy.TransitionState(EnemyStateType.Patrol);
             }
         }
     }
