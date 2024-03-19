@@ -94,6 +94,16 @@ public class Enemy : Character
         currentState = states[type];
         currentState.OnEnter();
     }
+
+    private void Start()
+    {
+        EnemyManager.Instance.enemyCount++;
+    }
+
+    private void OnDestroy()
+    {
+        EnemyManager.Instance.enemyCount--;
+    }
     private void Update()
     {
         currentState.OnUpdate();

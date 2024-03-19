@@ -10,7 +10,13 @@ public class PlayerController : MonoBehaviour
     public Vector2 input;
     public float moveSpeed = 5f;
 
+    public float dashSpeed = 10f; // 冲刺速度
+    public float dashDuration = 0.5f; // 冲刺持续时间
+
     public bool isMeleeAttack;
+    public bool isDashing; // 是否正在进行冲刺
+
+
 
     private Rigidbody2D rb;
     private Animator anim;
@@ -29,7 +35,8 @@ public class PlayerController : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
 
         inputActions.GamePlay.MeleeAttack.started += MeleeAttack;
-        
+        inputActions.GamePlay.Dash.started += ctx => Dash();
+
     }
 
    
@@ -57,6 +64,8 @@ public class PlayerController : MonoBehaviour
 
     void Move()
     {
+        float speed = isDashing ? dashSpeed : moveSpeed;
+
         rb.velocity = input * moveSpeed;
 
         if(input.x < 0)//left
@@ -68,6 +77,27 @@ public class PlayerController : MonoBehaviour
             sr.flipX = false;   
         }
     }
+
+    private void Dash()
+    {
+        // 如果正在冲刺或者已经死亡，则不执行冲刺操作
+        if (isDashing || isDead)
+            return;
+
+        StartCoroutine(DashCoroutine());
+    }
+
+    private IEnumerator DashCoroutine()
+    {
+        isDashing = true;
+        anim.SetTrigger("dash");
+
+        // 冲刺持续一定时间后恢复正常速度
+        yield return new WaitForSeconds(dashDuration);
+
+        isDashing = false;
+    }
+
     private void MeleeAttack(InputAction.CallbackContext obj)
     {
         anim.SetTrigger("meleeAttack");
@@ -90,6 +120,7 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("speed", rb.velocity.magnitude);
         anim.SetBool("isMeleeAttack", isMeleeAttack);
         anim.SetBool("isDead", isDead);
+        anim.SetBool("isDashing", isDashing);
     }
 
     void SwitchActionMap(InputActionMap actionMap)
