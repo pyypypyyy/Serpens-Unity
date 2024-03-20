@@ -37338,6 +37338,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIGameOverPanel
       objectReference: {fileID: 0}
+    - target: {fileID: 5756859398574906513, guid: ee8e0dd5576b8354dadc3cc749a3b02d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8626067779377324765, guid: ee8e0dd5576b8354dadc3cc749a3b02d, type: 3}
       propertyPath: m_Pivot.x
       value: 0
