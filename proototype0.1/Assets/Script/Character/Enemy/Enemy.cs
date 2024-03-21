@@ -104,7 +104,7 @@ public class Enemy : Character
     {
         EnemyManager.Instance.enemyCount--;
     }
-    private void Update()
+    protected virtual void Update()
     {
         currentState.OnUpdate();
 
@@ -181,24 +181,27 @@ public class Enemy : Character
     //automatic pathfinding
     public void AutoPath()
     {
-        pathGenerateTimer += Time.deltaTime;
-        //Get path points at regular intervals
-        if (pathGenerateTimer >= pathGenerateInterval)
+        if (player != null)
         {
-            GeneratePath(player.position);
-            pathGenerateTimer = 0;//reset timer
-        }
-        //Path calculation when path list is empty
-        if (pathPointList == null || pathPointList.Count <= 0 )
-        {
-            GeneratePath(player.position);
-        }
-        //When the enemy reaches the current path point, increment the index currentIndex for path calculation
-        else if (Vector2.Distance(transform.position, pathPointList[currentIndex]) <= 0.1f)
-        {
-            currentIndex++;
-            if(currentIndex >= pathPointList.Count)
+            pathGenerateTimer += Time.deltaTime;
+            //Get path points at regular intervals
+            if (pathGenerateTimer >= pathGenerateInterval)
+            {
                 GeneratePath(player.position);
+                pathGenerateTimer = 0;//reset timer
+            }
+            //Path calculation when path list is empty
+            if (pathPointList == null || pathPointList.Count <= 0)
+            {
+                GeneratePath(player.position);
+            }
+            //When the enemy reaches the current path point, increment the index currentIndex for path calculation
+            else if (Vector2.Distance(transform.position, pathPointList[currentIndex]) <= 0.1f)
+            {
+                currentIndex++;
+                if (currentIndex >= pathPointList.Count)
+                    GeneratePath(player.position);
+            }
         }
     }
     //Get Path Points
@@ -206,11 +209,15 @@ public class Enemy : Character
     {
         currentIndex = 0;
         //Start, Finish, Callback Functions
-        seeker.StartPath(transform.position, target, Path =>
+        if (seeker != null)
         {
-            pathPointList = Path.vectorPath;
-        });
-        
+            //Start, Finish, Callback Functions
+            seeker.StartPath(transform.position, target, Path =>
+            {
+                pathPointList = Path.vectorPath;
+            });
+        }
+
     }
     public void Move()
     {
