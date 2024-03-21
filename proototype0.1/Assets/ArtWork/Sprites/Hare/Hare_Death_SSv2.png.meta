@@ -1,40 +1,40 @@
 fileFormatVersion: 2
-guid: b3bc94c2f13679643871c96f844d0eb1
+guid: 2a8eb9463db9b7340aff413b9296f380
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7528616132636021226
-    second: Hare_Death_SS_0
+      213: -7701082881803748429
+    second: Hare_Death_SSv2_0
   - first:
-      213: 6136789977884838155
-    second: Hare_Death_SS_1
+      213: 1773143480303226151
+    second: Hare_Death_SSv2_1
   - first:
-      213: 7905105904190041839
-    second: Hare_Death_SS_2
+      213: 1832554066915722603
+    second: Hare_Death_SSv2_2
   - first:
-      213: -3441557780571773486
-    second: Hare_Death_SS_3
+      213: 6456337907729496877
+    second: Hare_Death_SSv2_3
   - first:
-      213: 8854470348723731257
-    second: Hare_Death_SS_4
+      213: -3867202028734991165
+    second: Hare_Death_SSv2_4
   - first:
-      213: 5267535284254861603
-    second: Hare_Death_SS_5
+      213: 2274810579592815253
+    second: Hare_Death_SSv2_5
   - first:
-      213: -6956002409955127539
-    second: Hare_Death_SS_6
+      213: 3460792684407645967
+    second: Hare_Death_SSv2_6
   - first:
-      213: 5070633262974064727
-    second: Hare_Death_SS_7
+      213: 6593964623245397560
+    second: Hare_Death_SSv2_7
   - first:
-      213: -2636400887595356444
-    second: Hare_Death_SS_8
+      213: 1374868529838231947
+    second: Hare_Death_SSv2_8
   - first:
-      213: 8448171412747550315
-    second: Hare_Death_SS_9
+      213: -3815263339937020097
+    second: Hare_Death_SSv2_9
   - first:
-      213: -3312808391647582970
-    second: Hare_Death_SS_10
+      213: -1853446848031481084
+    second: Hare_Death_SSv2_10
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -128,7 +128,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hare_Death_SS_0
+      name: Hare_Death_SSv2_0
       rect:
         serializedVersion: 2
         x: 8
@@ -142,14 +142,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae19b0cfb740b7860800000000000000
-      internalID: 7528616132636021226
+      spriteID: 3bbfe3ccbe1402590800000000000000
+      internalID: -7701082881803748429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hare_Death_SS_1
+      name: Hare_Death_SSv2_1
       rect:
         serializedVersion: 2
         x: 845
@@ -163,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b09c00588f14a2550800000000000000
-      internalID: 6136789977884838155
+      spriteID: 72d064fc9987b9810800000000000000
+      internalID: 1773143480303226151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hare_Death_SS_2
+      name: Hare_Death_SSv2_2
       rect:
         serializedVersion: 2
         x: 1752
@@ -184,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fee2713dfe394bd60800000000000000
-      internalID: 7905105904190041839
+      spriteID: b65853ee63a8e6910800000000000000
+      internalID: 1832554066915722603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hare_Death_SS_3
+      name: Hare_Death_SSv2_3
       rect:
         serializedVersion: 2
         x: 2605
@@ -205,14 +205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d5a907ce612d30d0800000000000000
-      internalID: -3441557780571773486
+      spriteID: d2bfa14be15899950800000000000000
+      internalID: 6456337907729496877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hare_Death_SS_4
+      name: Hare_Death_SSv2_4
       rect:
         serializedVersion: 2
         x: 3333
@@ -226,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93b38e18ed561ea70800000000000000
-      internalID: 8854470348723731257
+      spriteID: 3c4b4928e30f45ac0800000000000000
+      internalID: -3867202028734991165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hare_Death_SS_5
+      name: Hare_Death_SSv2_5
       rect:
         serializedVersion: 2
         x: 41
         y: 907
         width: 603
-        height: 914
+        height: 905
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 329e8d3be6b0a1940800000000000000
-      internalID: 5267535284254861603
+      spriteID: 5922eef6b20c19f10800000000000000
+      internalID: 2274810579592815253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hare_Death_SS_6
+      name: Hare_Death_SSv2_6
       rect:
         serializedVersion: 2
         x: 734
@@ -268,14 +268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d0f0dd1a9a0577f90800000000000000
-      internalID: -6956002409955127539
+      spriteID: f0763634c94370030800000000000000
+      internalID: 3460792684407645967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hare_Death_SS_7
+      name: Hare_Death_SSv2_7
       rect:
         serializedVersion: 2
         x: 1412
@@ -289,14 +289,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75859d956128e5640800000000000000
-      internalID: 5070633262974064727
+      spriteID: 83ec80673e7728b50800000000000000
+      internalID: 6593964623245397560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hare_Death_SS_8
+      name: Hare_Death_SSv2_8
       rect:
         serializedVersion: 2
         x: 2183
@@ -310,14 +310,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4eeaa596c5f996bd0800000000000000
-      internalID: -2636400887595356444
+      spriteID: b811fddb4a3841310800000000000000
+      internalID: 1374868529838231947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hare_Death_SS_9
+      name: Hare_Death_SSv2_9
       rect:
         serializedVersion: 2
         x: 2881
@@ -331,14 +331,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6e7d6ab32fed3570800000000000000
-      internalID: 8448171412747550315
+      spriteID: f37cb7ad4367d0bc0800000000000000
+      internalID: -3815263339937020097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hare_Death_SS_10
+      name: Hare_Death_SSv2_10
       rect:
         serializedVersion: 2
         x: 61
@@ -352,8 +352,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 605a9eed15a8602d0800000000000000
-      internalID: -3312808391647582970
+      spriteID: 403240569eb3746e0800000000000000
+      internalID: -1853446848031481084
       vertices: []
       indices: 
       edges: []
