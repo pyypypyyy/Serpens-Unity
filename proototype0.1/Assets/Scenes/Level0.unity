@@ -836,7 +836,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.4, y: -3.95, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 5}
+  m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -36733,16 +36733,13 @@ MonoBehaviour:
   - {fileID: 843553651}
   enemyWaves:
   - enemies:
-    - enemyPreferb: {fileID: 5315189795280717366, guid: e641bf4194509f74090bcf1db0bb9c3e, type: 3}
-      spawnInrterval: 0.5
-      waveEnemyCount: 5
     - enemyPreferb: {fileID: 8484974272389291881, guid: db98708f9b4e126449a8f902751394db, type: 3}
       spawnInrterval: 0.5
-      waveEnemyCount: 3
+      waveEnemyCount: 4
   - enemies:
     - enemyPreferb: {fileID: 8566370479988174820, guid: 180f844a43d82e04d860d0cb1d60465f, type: 3}
       spawnInrterval: 0.5
-      waveEnemyCount: 5
+      waveEnemyCount: 1
   currentWaveIndex: 0
   enemyCount: 0
 --- !u!4 &1767761175
