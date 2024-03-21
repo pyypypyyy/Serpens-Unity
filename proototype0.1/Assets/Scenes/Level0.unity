@@ -36736,6 +36736,9 @@ MonoBehaviour:
     - enemyPreferb: {fileID: 5315189795280717366, guid: e641bf4194509f74090bcf1db0bb9c3e, type: 3}
       spawnInrterval: 0.5
       waveEnemyCount: 5
+    - enemyPreferb: {fileID: 8484974272389291881, guid: db98708f9b4e126449a8f902751394db, type: 3}
+      spawnInrterval: 0.5
+      waveEnemyCount: 3
   - enemies:
     - enemyPreferb: {fileID: 8566370479988174820, guid: 180f844a43d82e04d860d0cb1d60465f, type: 3}
       spawnInrterval: 0.5
