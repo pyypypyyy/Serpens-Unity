@@ -272,7 +272,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hare_Hurt_SS_0: 7459592279060351634
+      Hare_Hurt_SS_1: 1300456194544368994
+      Hare_Hurt_SS_2: 2134531302431252835
+      Hare_Hurt_SS_3: 7373779393192772540
+      Hare_Hurt_SS_4: 247083463364663342
+      Hare_Hurt_SS_5: -8038916150222499556
+      Hare_Hurt_SS_6: 2838957035197247494
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

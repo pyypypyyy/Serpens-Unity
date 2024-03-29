@@ -320,7 +320,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MC_Spritesheet_0: -395987321660882398
+      MC_Spritesheet_1: 415180857511028696
+      MC_Spritesheet_2: 4953313021338470105
+      MC_Spritesheet_3: -7022388834562460334
+      MC_Spritesheet_4: -2957488018757716113
+      MC_Spritesheet_5: -4264519722102215246
+      MC_Spritesheet_6: -6454461608680822704
+      MC_Spritesheet_7: 5277998767461811896
+      MC_Spritesheet_8: -5580599775770971975
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

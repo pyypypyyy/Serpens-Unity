@@ -248,7 +248,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MH_Projectile_0: 6268998252394199830
+      MH_Projectile_1: 9053912065957172138
+      MH_Projectile_2: -4949583259625257868
+      MH_Projectile_3: -8640264880858426226
+      MH_Projectile_4: 2158986085571711204
+      MH_Projectile_5: 5335579788571655460
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
