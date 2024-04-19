@@ -320,7 +320,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hare_Walk_SS_0: -4362868154138350201
+      Hare_Walk_SS_1: 4114753932251775592
+      Hare_Walk_SS_2: -7687232895385135558
+      Hare_Walk_SS_3: -1445686269100232686
+      Hare_Walk_SS_4: -8916193401818069558
+      Hare_Walk_SS_5: -8608191595880120140
+      Hare_Walk_SS_6: -5485142269916939534
+      Hare_Walk_SS_7: -135234523335322419
+      Hare_Walk_SS_8: 5986662610618737074
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

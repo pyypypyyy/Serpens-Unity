@@ -224,7 +224,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MH_Idle_0: 3435171314679977236
+      MH_Idle_1: -2325461801731522083
+      MH_Idle_2: -8019363374857644056
+      MH_Idle_3: 2985822848248831297
+      MH_Idle_4: -1240710420673010733
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

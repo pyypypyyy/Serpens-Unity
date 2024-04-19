@@ -296,7 +296,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MH_Walk_LB_0: -6596048973080959413
+      MH_Walk_LB_1: -3144720857557600953
+      MH_Walk_LB_2: 1924759301783795424
+      MH_Walk_LB_3: 2102408171612404968
+      MH_Walk_LB_4: 5736036177773649253
+      MH_Walk_LB_5: 5907930369670235089
+      MH_Walk_LB_6: -7791339858726872426
+      MH_Walk_LB_7: -2481971833587736544
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

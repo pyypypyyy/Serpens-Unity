@@ -368,7 +368,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hare_Death_SSv2_0: -7701082881803748429
+      Hare_Death_SSv2_1: 1773143480303226151
+      Hare_Death_SSv2_10: -1853446848031481084
+      Hare_Death_SSv2_2: 1832554066915722603
+      Hare_Death_SSv2_3: 6456337907729496877
+      Hare_Death_SSv2_4: -3867202028734991165
+      Hare_Death_SSv2_5: 2274810579592815253
+      Hare_Death_SSv2_6: 3460792684407645967
+      Hare_Death_SSv2_7: 6593964623245397560
+      Hare_Death_SSv2_8: 1374868529838231947
+      Hare_Death_SSv2_9: -3815263339937020097
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
