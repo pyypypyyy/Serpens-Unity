@@ -8,15 +8,18 @@ public class PlayerController : MonoBehaviour
 {
     public InputActions inputActions;
     public Vector2 input;
-    public float moveSpeed = 5f;
-
-    public float dashSpeed = 10f; // 冲刺速度
-    public float dashDuration = 0.5f; // 冲刺持续时间
+    public float normalSpeed = 3f;
+    public float attackSpeed = 1f;
+    private float currentSpeed;
 
     public bool isMeleeAttack;
-    public bool isDashing; // 是否正在进行冲刺
 
-
+    public bool isDodging;
+    public float dodgeForce;
+    public float dodgeTimer = 0f;
+    public float dodgeDuration = 0f;
+    public float dodgeCooldown = 2f;
+    private bool isDodgeOnCooldown = false;
 
     private Rigidbody2D rb;
     private Animator anim;
@@ -35,12 +38,11 @@ public class PlayerController : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
 
         inputActions.GamePlay.MeleeAttack.started += MeleeAttack;
-        inputActions.GamePlay.Dash.started += ctx => Dash();
+        inputActions.GamePlay.Dodge.started += isDodge;
 
     }
 
    
-
     private void OnEnable()
     {
         inputActions.Enable();
@@ -60,13 +62,16 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         Move();
+        if (!isMeleeAttack)
+            Dodge();
     }
 
     void Move()
     {
-        float speed = isDashing ? dashSpeed : moveSpeed;
+        //Set current speed according to attack status
+        currentSpeed = isMeleeAttack ? attackSpeed : normalSpeed;
 
-        rb.velocity = input * moveSpeed;
+        rb.velocity = input * currentSpeed;
 
         if(input.x < 0)//left
         {
@@ -78,30 +83,57 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void Dash()
+    void Dodge()
     {
-        // 如果正在冲刺或者已经死亡，则不执行冲刺操作
-        if (isDashing || isDead)
-            return;
+        if (isDodgeOnCooldown)
+        {
+            dodgeTimer += Time.fixedDeltaTime;
+            if (dodgeTimer >= dodgeCooldown)
+            {
+                isDodgeOnCooldown = false;
+                dodgeTimer = 0;
+                
+            }
+        }
+        if (isDodging)
+        {
+            if (!isDodgeOnCooldown)
+            {
+                if (dodgeTimer <= dodgeDuration) 
+                {
+                    rb.AddForce(input * dodgeForce, ForceMode2D.Impulse);
 
-        StartCoroutine(DashCoroutine());
+                    dodgeTimer += Time.fixedDeltaTime;
+                }
+                else
+                {
+                    isDodging = false;
+                    isDodgeOnCooldown = true;
+                    dodgeTimer = 0f;
+                }
+
+            }          
+        }
     }
 
-    private IEnumerator DashCoroutine()
-    {
-        isDashing = true;
-        anim.SetTrigger("dash");
-
-        // 冲刺持续一定时间后恢复正常速度
-        yield return new WaitForSeconds(dashDuration);
-
-        isDashing = false;
-    }
+    
 
     private void MeleeAttack(InputAction.CallbackContext obj)
     {
-        anim.SetTrigger("meleeAttack");
-        isMeleeAttack = true;
+        if (!isDodging && !isDodgeOnCooldown)
+        { 
+            anim.SetTrigger("meleeAttack");
+            isMeleeAttack = true;
+        }
+       
+    }
+    private void isDodge(InputAction.CallbackContext obj)
+    {
+        if (!isDodgeOnCooldown)
+        {
+            isDodging = true;
+        }
+        
     }
 
     public void PlayerHurt()
@@ -117,10 +149,11 @@ public class PlayerController : MonoBehaviour
     }
     void SetAnimation()
     {
+        anim.SetBool("isDodge", isDodging);
         anim.SetFloat("speed", rb.velocity.magnitude);
         anim.SetBool("isMeleeAttack", isMeleeAttack);
         anim.SetBool("isDead", isDead);
-        anim.SetBool("isDashing", isDashing);
+        
     }
 
     void SwitchActionMap(InputActionMap actionMap)

@@ -854,11 +854,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   input: {x: 0, y: 0}
-  moveSpeed: 1.2
-  dashSpeed: 10
-  dashDuration: 0.5
+  normalSpeed: 3
+  attackSpeed: 0.2
   isMeleeAttack: 0
-  isDashing: 0
+  isDodging: 0
+  dodgeForce: 3
+  dodgeTimer: 0
+  dodgeDuration: 0.3
+  dodgeCooldown: 2
   isDead: 0
 --- !u!212 &451128795
 SpriteRenderer:
