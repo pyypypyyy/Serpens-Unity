@@ -21,6 +21,8 @@ public class EnemyManager : MonoBehaviour
 
     public int enemyCount = 0;
 
+
+
     public bool GetLastWave() => currentWaveIndex == enemyWaves.Count;
 
     private void Awake()
@@ -66,6 +68,7 @@ public class EnemyManager : MonoBehaviour
         return spawnPoints[randomIndex].position;
     }
 
+ 
 }
 
    

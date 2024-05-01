@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 1104298306125527673}
   - component: {fileID: 1029864288737553253}
   - component: {fileID: 3225243468157781131}
+  - component: {fileID: 7956353895463327953}
   - component: {fileID: 5503119913107060361}
   m_Layer: 6
   m_Name: MadHatter
@@ -223,7 +224,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8566370479988174820}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e568d9b23d71d447b67fce7399c40b5, type: 3}
   m_Name: 
@@ -275,7 +276,7 @@ MonoBehaviour:
   attackDistance: 0.8
   pathPointList: []
   currentIndex: 0
-  meleeAttackDamage: 10
+  meleeAttackDamage: 0
   isAttack: 1
   distance: 0
   playerLayer:
@@ -291,6 +292,85 @@ MonoBehaviour:
   rb: {fileID: 0}
   animator: {fileID: 0}
   enemyCollider: {fileID: 0}
+--- !u!114 &7956353895463327953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8566370479988174820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2af52b38a3f17e408e64a9b2dd5bdda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 200
+  currentHealth: 0
+  invulnerable: 0
+  invulnerableDuration: 0
+  onHurt:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3225243468157781131}
+        m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
+        m_MethodName: EnemyHurt
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3225243468157781131}
+        m_TargetAssemblyTypeName: Character, Assembly-CSharp
+        m_MethodName: Die
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  player: {fileID: 0}
+  IdleDuration: 1
+  patrolPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  targetPointIndex: 0
+  currentSpeed: 1
+  chaseDistance: 20
+  attackDistance: 20
+  pathPointList: []
+  currentIndex: 0
+  meleeAttackDamage: 0
+  isAttack: 1
+  distance: 0
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  AttackCooldownDuration: 2
+  isHurt: 0
+  isKnockback: 1
+  knockbackForce: 2
+  knockbackForceDuration: 0.1
+  damage: 20
+  sr: {fileID: 0}
+  rb: {fileID: 0}
+  animator: {fileID: 0}
+  enemyCollider: {fileID: 0}
+  projectilePrefab: {fileID: 8244303697636402663, guid: 5b0a7c2c75ca8444c995c7a5de2cab13, type: 3}
+  firePoint: {fileID: 4514463958231044624}
+  projectileSpeed: 5
+  attackCooldown: 10
 --- !u!114 &5503119913107060361
 MonoBehaviour:
   m_ObjectHideFlags: 0
