@@ -1,0 +1,612 @@
+fileFormatVersion: 2
+guid: ba5ad5d7eb29b40b2948a1243591a0cd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6513250825018233326
+    second: Hare_Attack_SS+Effect1.1_0
+  - first:
+      213: -63203272990561480
+    second: Hare_Attack_SS+Effect1.1_1
+  - first:
+      213: -2449460060343428704
+    second: Hare_Attack_SS+Effect1.1_2
+  - first:
+      213: 2255698968219275254
+    second: Hare_Attack_SS+Effect1.1_3
+  - first:
+      213: 3094224294619917275
+    second: Hare_Attack_SS+Effect1.1_4
+  - first:
+      213: 851778853971049014
+    second: Hare_Attack_SS+Effect1.1_5
+  - first:
+      213: 7539795733167357125
+    second: Hare_Attack_SS+Effect1.1_6
+  - first:
+      213: -278919477802237604
+    second: Hare_Attack_SS+Effect1.1_7
+  - first:
+      213: 9159531008497511207
+    second: Hare_Attack_SS+Effect1.1_8
+  - first:
+      213: 7213797735363974164
+    second: Hare_Attack_SS+Effect1.1_9
+  - first:
+      213: 6774431011383710918
+    second: Hare_Attack_SS+Effect1.1_10
+  - first:
+      213: -844091343816632751
+    second: Hare_Attack_SS+Effect1.1_11
+  - first:
+      213: -8759195854463219755
+    second: Hare_Attack_SS+Effect1.1_12
+  - first:
+      213: -8934719838199282391
+    second: Hare_Attack_SS+Effect1.1_13
+  - first:
+      213: -1801639822444438185
+    second: Hare_Attack_SS+Effect1.1_14
+  - first:
+      213: -2536800838192868112
+    second: Hare_Attack_SS+Effect1.1_15
+  - first:
+      213: -4742329722614197735
+    second: Hare_Attack_SS+Effect1.1_16
+  - first:
+      213: -6275824976902453190
+    second: Hare_Attack_SS+Effect1.1_17
+  - first:
+      213: 4685280094636223618
+    second: Hare_Attack_SS+Effect1.1_18
+  - first:
+      213: -1170558981773222529
+    second: Hare_Attack_SS+Effect1.1_19
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hare_Attack_SS+Effect1.1_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 3161
+        width: 825
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00072c6a0a174310a7cd83a613e3a4a
+      internalID: 2025660606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hare_Attack_SS+Effect1.1_1
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 3167
+        width: 791
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bde4fa5b955499b89460d2b40ffc67
+      internalID: 667733254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hare_Attack_SS+Effect1.1_2
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 3165
+        width: 763
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21964cc804e14770a7d4b04c8987391
+      internalID: 783223813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hare_Attack_SS+Effect1.1_3
+      rect:
+        serializedVersion: 2
+        x: 2538
+        y: 3174
+        width: 808
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6511c75d1bd224504a4e09cf50db2769
+      internalID: -1948493090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hare_Attack_SS+Effect1.1_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2416
+        width: 843
+        height: 667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64b7156a52e0413b8ebabc3378d55b2
+      internalID: -1022767489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hare_Attack_SS+Effect1.1_5
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 2425
+        width: 858
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304fedf1cdc5a470c9bf1867aa71c218
+      internalID: 1555786989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hare_Attack_SS+Effect1.1_6
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 2461
+        width: 867
+        height: 677
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23fc6ae008354613be4d3f10b7fcc49
+      internalID: 830995843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hare_Attack_SS+Effect1.1_7
+      rect:
+        serializedVersion: 2
+        x: 2740
+        y: 2478
+        width: 842
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483ab86a9c49c447ca3b57849fcd491f
+      internalID: -1803860856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hare_Attack_SS+Effect1.1_8
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1706
+        width: 734
+        height: 641
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41086a4685af84f69ba771bdb9b8373b
+      internalID: -2095416822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hare_Attack_SS+Effect1.1_9
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1737
+        width: 688
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a37ec39fe3624e7193922a508d8fc91
+      internalID: -1462683540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hare_Attack_SS+Effect1.1_10
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1794
+        width: 894
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1fa4d2a43bd455cbf8028a49d65def
+      internalID: -376252258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hare_Attack_SS+Effect1.1_11
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 1802
+        width: 835
+        height: 657
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5b1463ff94e41b9afd3680816338bd
+      internalID: 1042657293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hare_Attack_SS+Effect1.1_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1009
+        width: 854
+        height: 633
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ccc4cf129f348d5a5a8ef294afe7c9
+      internalID: -580578297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hare_Attack_SS+Effect1.1_13
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1028
+        width: 932
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f353f9719494446a88ddcbae29f71fe
+      internalID: -436560648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hare_Attack_SS+Effect1.1_14
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 1123
+        width: 873
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827e8529db4584851a0e5c228337ae1d
+      internalID: -1245391128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hare_Attack_SS+Effect1.1_15
+      rect:
+        serializedVersion: 2
+        x: 2848
+        y: 1075
+        width: 827
+        height: 685
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4831cd0573843c1b597031d247bff8
+      internalID: -1884043042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hare_Attack_SS+Effect1.1_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 254
+        width: 831
+        height: 671
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716663be5cbf7424b90033815cc1a1e3
+      internalID: 304344300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hare_Attack_SS+Effect1.1_17
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 271
+        width: 820
+        height: 688
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1aa1f6d107a49c4a4a25e4c1c908aa
+      internalID: -438499643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hare_Attack_SS+Effect1.1_18
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 357
+        width: 824
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2913695dd96d49839a29df178d30093
+      internalID: -95296714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hare_Attack_SS+Effect1.1_19
+      rect:
+        serializedVersion: 2
+        x: 2745
+        y: 305
+        width: 826
+        height: 677
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b44eb237f19498c889782098c162ca
+      internalID: -1397244611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fe738709cea0d42dfb773479e965c90d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Hare_Attack_SS+Effect1.1_0: 2025660606
+      Hare_Attack_SS+Effect1.1_1: 667733254
+      Hare_Attack_SS+Effect1.1_10: -376252258
+      Hare_Attack_SS+Effect1.1_11: 1042657293
+      Hare_Attack_SS+Effect1.1_12: -580578297
+      Hare_Attack_SS+Effect1.1_13: -436560648
+      Hare_Attack_SS+Effect1.1_14: -1245391128
+      Hare_Attack_SS+Effect1.1_15: -1884043042
+      Hare_Attack_SS+Effect1.1_16: 304344300
+      Hare_Attack_SS+Effect1.1_17: -438499643
+      Hare_Attack_SS+Effect1.1_18: -95296714
+      Hare_Attack_SS+Effect1.1_19: -1397244611
+      Hare_Attack_SS+Effect1.1_2: 783223813
+      Hare_Attack_SS+Effect1.1_3: -1948493090
+      Hare_Attack_SS+Effect1.1_4: -1022767489
+      Hare_Attack_SS+Effect1.1_5: 1555786989
+      Hare_Attack_SS+Effect1.1_6: 830995843
+      Hare_Attack_SS+Effect1.1_7: -1803860856
+      Hare_Attack_SS+Effect1.1_8: -2095416822
+      Hare_Attack_SS+Effect1.1_9: -1462683540
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

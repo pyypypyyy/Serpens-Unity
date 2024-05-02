@@ -1,40 +1,40 @@
 fileFormatVersion: 2
-guid: ebcb3b30b01cbf1408ae42bbf0736d5b
+guid: b2d17a2fd58574c3cb22862f02688f38
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6805139754058629146
-    second: MH_Walk_0
+      213: -6587332538454951083
+    second: MH_Walk_SS_0
   - first:
-      213: -5400780430261986079
-    second: MH_Walk_1
+      213: -1545838486890088152
+    second: MH_Walk_SS_1
   - first:
-      213: -1628369773424428446
-    second: MH_Walk_2
+      213: -6630682829493644901
+    second: MH_Walk_SS_2
   - first:
-      213: -3104818141662417928
-    second: MH_Walk_3
+      213: 5666248261493380556
+    second: MH_Walk_SS_3
   - first:
-      213: -2247783546733502140
-    second: MH_Walk_4
+      213: 6093134179266207971
+    second: MH_Walk_SS_4
   - first:
-      213: 8910922204525685648
-    second: MH_Walk_5
+      213: -100974288111950039
+    second: MH_Walk_SS_5
   - first:
-      213: -8852203497509380967
-    second: MH_Walk_6
+      213: 1426436753129825777
+    second: MH_Walk_SS_6
   - first:
-      213: -7904594035445908070
-    second: MH_Walk_7
+      213: 275395470348452424
+    second: MH_Walk_SS_7
   - first:
-      213: 3453626997462387022
-    second: MH_Walk_8
+      213: 126993767046688928
+    second: MH_Walk_SS_8
   - first:
-      213: 3382001310403292045
-    second: MH_Walk_9
+      213: -2229238138110110606
+    second: MH_Walk_SS_9
   - first:
-      213: 1017246739930546986
-    second: MH_Walk_10
+      213: -3818854279669313744
+    second: MH_Walk_SS_10
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -128,179 +128,179 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MH_Walk_0
+      name: MH_WAlk_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 967
-        width: 478
-        height: 1099
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ef3278e2794f81a0800000000000000
-      internalID: -6805139754058629146
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MH_Walk_1
-      rect:
-        serializedVersion: 2
-        x: 548
-        y: 1005
+        x: 9
+        y: 1000
         width: 479
-        height: 1074
+        height: 1098
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1ec5a5030d29c05b0800000000000000
-      internalID: -5400780430261986079
+      spriteID: 53212b0d99e1c45d1886619ddc09b421
+      internalID: -1290568904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_Walk_2
+      name: MH_WAlk_1
       rect:
         serializedVersion: 2
-        x: 1059
-        y: 999
-        width: 463
-        height: 1065
+        x: 514
+        y: 1018
+        width: 481
+        height: 1073
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 26abd0c815ed669e0800000000000000
-      internalID: -1628369773424428446
+      spriteID: 6f194afa07571403a9493226144c73e2
+      internalID: -622852995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_Walk_3
+      name: MH_WAlk_2
       rect:
         serializedVersion: 2
-        x: 1533
-        y: 1025
-        width: 445
-        height: 1049
+        x: 997
+        y: 1013
+        width: 464
+        height: 1063
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8fbe506a95879e4d0800000000000000
-      internalID: -3104818141662417928
+      spriteID: a5041df3847814e93ad21f4228c6f8c9
+      internalID: -1162226177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_Walk_4
+      name: MH_WAlk_3
       rect:
         serializedVersion: 2
-        x: 1992
-        y: 1073
-        width: 491
-        height: 1008
+        x: 1464
+        y: 1041
+        width: 446
+        height: 1048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4416bf406c44ec0e0800000000000000
-      internalID: -2247783546733502140
+      spriteID: feefc6768eb724aa08963bb982687fc0
+      internalID: -217223893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_Walk_5
+      name: MH_WAlk_4
       rect:
         serializedVersion: 2
-        x: 2531
-        y: 1124
-        width: 522
-        height: 967
+        x: 1942
+        y: 1080
+        width: 492
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 09be4ed6884f9ab70800000000000000
-      internalID: 8910922204525685648
+      spriteID: 1c43faf136b514260a4da1ea342ec926
+      internalID: 1141994045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_Walk_6
+      name: MH_WAlk_5
       rect:
         serializedVersion: 2
-        x: 67
-        y: 11
-        width: 517
-        height: 951
+        x: 2463
+        y: 1123
+        width: 524
+        height: 968
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 99c9b7be1d7a62580800000000000000
-      internalID: -8852203497509380967
+      spriteID: bee705191c37b4b6db9a1180ad79423c
+      internalID: -1540453579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_Walk_7
+      name: MH_WAlk_6
       rect:
         serializedVersion: 2
-        x: 589
-        y: 21
-        width: 495
+        x: 17
+        y: 37
+        width: 520
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35563a83870442aaa5c0b4f964ac718
+      internalID: 586536433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MH_WAlk_7
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 30
+        width: 499
         height: 965
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a9d3397ea9d3d4290800000000000000
-      internalID: -7904594035445908070
+      spriteID: 0d32e3a499c214b47b742ffca4707356
+      internalID: 24935440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_Walk_8
+      name: MH_WAlk_8
       rect:
         serializedVersion: 2
-        x: 1151
-        y: 1
+        x: 1051
+        y: 6
         width: 469
         height: 996
       alignment: 0
@@ -308,52 +308,52 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e49c172c47fbdef20800000000000000
-      internalID: 3453626997462387022
+      spriteID: 7100634aa66c7453bb06c0dbefbe76da
+      internalID: 1944146560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_Walk_9
+      name: MH_WAlk_9
       rect:
         serializedVersion: 2
-        x: 1988
-        y: 10
-        width: 440
-        height: 1060
+        x: 1932
+        y: 9
+        width: 441
+        height: 1058
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d8b6e70f5484fee20800000000000000
-      internalID: 3382001310403292045
+      spriteID: b163b7a7e56b642eda49ef5db1a16a81
+      internalID: -2111525061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MH_Walk_10
+      name: MH_WAlk_10
       rect:
         serializedVersion: 2
-        x: 2667
-        y: 14
-        width: 474
+        x: 2500
+        y: 9
+        width: 475
         height: 1098
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a230c76358cfd1e00800000000000000
-      internalID: 1017246739930546986
+      spriteID: 6a78bf964f0b44c2597178e60c5fbcc4
+      internalID: -936693029
       vertices: []
       indices: 
       edges: []
@@ -361,7 +361,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 954d35f4f46df419fa8f38d16befd0db
     internalID: 0
     vertices: []
     indices: 
@@ -369,17 +369,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MH_Walk_0: -6805139754058629146
-      MH_Walk_1: -5400780430261986079
-      MH_Walk_10: 1017246739930546986
-      MH_Walk_2: -1628369773424428446
-      MH_Walk_3: -3104818141662417928
-      MH_Walk_4: -2247783546733502140
-      MH_Walk_5: 8910922204525685648
-      MH_Walk_6: -8852203497509380967
-      MH_Walk_7: -7904594035445908070
-      MH_Walk_8: 3453626997462387022
-      MH_Walk_9: 3382001310403292045
+      MH_WAlk_0: -1290568904
+      MH_WAlk_1: -622852995
+      MH_WAlk_10: -936693029
+      MH_WAlk_2: -1162226177
+      MH_WAlk_3: -217223893
+      MH_WAlk_4: 1141994045
+      MH_WAlk_5: -1540453579
+      MH_WAlk_6: 586536433
+      MH_WAlk_7: 24935440
+      MH_WAlk_8: 1944146560
+      MH_WAlk_9: -2111525061
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
