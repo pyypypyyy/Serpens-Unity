@@ -1,0 +1,812 @@
+fileFormatVersion: 2
+guid: c5dd7334841c64bf19d607eae9c81912
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3850714930312010175
+    second: MC_Attack_SS+Effects_0
+  - first:
+      213: -2982616678283702682
+    second: MC_Attack_SS+Effects_1
+  - first:
+      213: 8535565400205721987
+    second: MC_Attack_SS+Effects_2
+  - first:
+      213: 629205905884638061
+    second: MC_Attack_SS+Effects_3
+  - first:
+      213: -2040879201730725362
+    second: MC_Attack_SS+Effects_4
+  - first:
+      213: -8542676696746256629
+    second: MC_Attack_SS+Effects_5
+  - first:
+      213: -791855431013945613
+    second: MC_Attack_SS+Effects_6
+  - first:
+      213: 6753740783002885545
+    second: MC_Attack_SS+Effects_7
+  - first:
+      213: 3907613748568531652
+    second: MC_Attack_SS+Effects_8
+  - first:
+      213: 6990603841328083682
+    second: MC_Attack_SS+Effects_9
+  - first:
+      213: 7221650229357356208
+    second: MC_Attack_SS+Effects_10
+  - first:
+      213: -3241279230070582952
+    second: MC_Attack_SS+Effects_11
+  - first:
+      213: -4616053051145564928
+    second: MC_Attack_SS+Effects_12
+  - first:
+      213: 8031067690939169376
+    second: MC_Attack_SS+Effects_13
+  - first:
+      213: -4737987209542884128
+    second: MC_Attack_SS+Effects_14
+  - first:
+      213: -1976398392932108891
+    second: MC_Attack_SS+Effects_15
+  - first:
+      213: -3493548637416225338
+    second: MC_Attack_SS+Effects_16
+  - first:
+      213: 7317566413483135767
+    second: MC_Attack_SS+Effects_17
+  - first:
+      213: 5017533650709398580
+    second: MC_Attack_SS+Effects_18
+  - first:
+      213: -946408098281001004
+    second: MC_Attack_SS+Effects_19
+  - first:
+      213: 2152532722321174866
+    second: MC_Attack_SS+Effects_20
+  - first:
+      213: 5987685734230385035
+    second: MC_Attack_SS+Effects_21
+  - first:
+      213: -7643768595919804446
+    second: MC_Attack_SS+Effects_22
+  - first:
+      213: 4130157727855834254
+    second: MC_Attack_SS+Effects_23
+  - first:
+      213: 2432031592164922953
+    second: MC_Attack_SS+Effects_24
+  - first:
+      213: 8813813181787390472
+    second: MC_Attack_SS+Effects_25
+  - first:
+      213: -6450472576994996090
+    second: MC_Attack_SS+Effects_26
+  - first:
+      213: 6227843171021651825
+    second: MC_Attack_SS+Effects_27
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 5456
+        width: 492
+        height: 731
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb95a80c3dc707530800000000000000
+      internalID: 3850714930312010175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_1
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 5483
+        width: 456
+        height: 654
+      alignment: 9
+      pivot: {x: 0.42418215, y: 0.51321644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e8eb50fed9b96d0800000000000000
+      internalID: -2982616678283702682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_2
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 5432
+        width: 961
+        height: 988
+      alignment: 9
+      pivot: {x: 0.61242497, y: 0.3644031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3818064128b647670800000000000000
+      internalID: 8535565400205721987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_3
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 5417
+        width: 749
+        height: 1031
+      alignment: 9
+      pivot: {x: 0.6615556, y: 0.35748345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6be4de00736bb800800000000000000
+      internalID: 629205905884638061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_4
+      rect:
+        serializedVersion: 2
+        x: 3183
+        y: 5259
+        width: 619
+        height: 1209
+      alignment: 9
+      pivot: {x: 0.59076077, y: 0.2998261}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a7b57dd275da3e0800000000000000
+      internalID: -2040879201730725362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_5
+      rect:
+        serializedVersion: 2
+        x: 3805
+        y: 5679
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b079e6b2ec0527980800000000000000
+      internalID: -8542676696746256629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 4233
+        width: 441
+        height: 1083
+      alignment: 9
+      pivot: {x: 0.43140295, y: 0.344374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe23f05ea3c205f0800000000000000
+      internalID: -791855431013945613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_7
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 4228
+        width: 571
+        height: 1033
+      alignment: 9
+      pivot: {x: 0.31835607, y: 0.35775936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad94f3957b1abd50800000000000000
+      internalID: 6753740783002885545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_8
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 4300
+        width: 732
+        height: 996
+      alignment: 9
+      pivot: {x: 0.58265394, y: 0.32210237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c22cda3002aa3630800000000000000
+      internalID: 3907613748568531652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_9
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 4286
+        width: 909
+        height: 868
+      alignment: 9
+      pivot: {x: 0.36688104, y: 0.40042382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e277d7e72d930160800000000000000
+      internalID: 6990603841328083682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_10
+      rect:
+        serializedVersion: 2
+        x: 3176
+        y: 4339
+        width: 650
+        height: 768
+      alignment: 9
+      pivot: {x: 0.5066489, y: 0.4381021}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4a6f42f94783460800000000000000
+      internalID: 7221650229357356208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_11
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 2930
+        width: 518
+        height: 881
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55886424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8519ac996b9a403d0800000000000000
+      internalID: -3241279230070582952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_12
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 2927
+        width: 534
+        height: 875
+      alignment: 9
+      pivot: {x: 0.39479208, y: 0.6135968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d4c16f43c70ffb0800000000000000
+      internalID: -4616053051145564928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_13
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 2735
+        width: 609
+        height: 1432
+      alignment: 9
+      pivot: {x: 0.58515495, y: 0.39437407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06abb85b385147f60800000000000000
+      internalID: 8031067690939169376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_14
+      rect:
+        serializedVersion: 2
+        x: 2267
+        y: 2853
+        width: 590
+        height: 1317
+      alignment: 9
+      pivot: {x: 0.57324755, y: 0.29327148}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e42ad06cb94f3eb0800000000000000
+      internalID: -4737987209542884128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_15
+      rect:
+        serializedVersion: 2
+        x: 3086
+        y: 2808
+        width: 536
+        height: 1321
+      alignment: 9
+      pivot: {x: 0.508063, y: 0.28408304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5f0ae022c6294e0800000000000000
+      internalID: -1976398392932108891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_16
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1370
+        width: 442
+        height: 1157
+      alignment: 9
+      pivot: {x: 0.4120033, y: 0.32818145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c5814d160c648fc0800000000000000
+      internalID: -3493548637416225338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_17
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1400
+        width: 467
+        height: 1178
+      alignment: 9
+      pivot: {x: 0.46298394, y: 0.30923292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713ddf702e73d8560800000000000000
+      internalID: 7317566413483135767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_18
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1414
+        width: 679
+        height: 1291
+      alignment: 9
+      pivot: {x: 0.5636468, y: 0.356058}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4344a13754cd1a540800000000000000
+      internalID: 5017533650709398580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_19
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1449
+        width: 662
+        height: 1140
+      alignment: 9
+      pivot: {x: 0.5587531, y: 0.3824826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df686159deadd2f0800000000000000
+      internalID: -946408098281001004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_20
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 1454
+        width: 598
+        height: 870
+      alignment: 9
+      pivot: {x: 0.57226765, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251bb593b155fdd10800000000000000
+      internalID: 2152532722321174866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_21
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 420
+        width: 652
+        height: 760
+      alignment: 9
+      pivot: {x: 0.61268014, y: 0.4601957}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81e97f7378881350800000000000000
+      internalID: 5987685734230385035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_22
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 385
+        width: 762
+        height: 765
+      alignment: 9
+      pivot: {x: 0.62477106, y: 0.46045592}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7e9eed5f0ebe590800000000000000
+      internalID: -7643768595919804446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_23
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 376
+        width: 563
+        height: 758
+      alignment: 9
+      pivot: {x: 0.5614083, y: 0.47149336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e847e2b2294415930800000000000000
+      internalID: 4130157727855834254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_24
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 400
+        width: 602
+        height: 755
+      alignment: 9
+      pivot: {x: 0.60768145, y: 0.45993224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946948df8df40c120800000000000000
+      internalID: 2432031592164922953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_25
+      rect:
+        serializedVersion: 2
+        x: 2877
+        y: 393
+        width: 643
+        height: 755
+      alignment: 9
+      pivot: {x: 0.58065224, y: 0.4771043}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802c7192464f05a70800000000000000
+      internalID: 8813813181787390472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_26
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 361
+        width: 639
+        height: 755
+      alignment: 9
+      pivot: {x: 0.61497265, y: 0.47138017}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68090d60e515b76a0800000000000000
+      internalID: -6450472576994996090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC_Attack_SS+Effects_27
+      rect:
+        serializedVersion: 2
+        x: 4285
+        y: 319
+        width: 739
+        height: 756
+      alignment: 9
+      pivot: {x: 0.6637414, y: 0.45998517}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f76951e5ebd6650800000000000000
+      internalID: 6227843171021651825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6f81c16a74530461b9fceb444335939d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MC_Attack_SS+Effects_0: 3850714930312010175
+      MC_Attack_SS+Effects_1: -2982616678283702682
+      MC_Attack_SS+Effects_10: 7221650229357356208
+      MC_Attack_SS+Effects_11: -3241279230070582952
+      MC_Attack_SS+Effects_12: -4616053051145564928
+      MC_Attack_SS+Effects_13: 8031067690939169376
+      MC_Attack_SS+Effects_14: -4737987209542884128
+      MC_Attack_SS+Effects_15: -1976398392932108891
+      MC_Attack_SS+Effects_16: -3493548637416225338
+      MC_Attack_SS+Effects_17: 7317566413483135767
+      MC_Attack_SS+Effects_18: 5017533650709398580
+      MC_Attack_SS+Effects_19: -946408098281001004
+      MC_Attack_SS+Effects_2: 8535565400205721987
+      MC_Attack_SS+Effects_20: 2152532722321174866
+      MC_Attack_SS+Effects_21: 5987685734230385035
+      MC_Attack_SS+Effects_22: -7643768595919804446
+      MC_Attack_SS+Effects_23: 4130157727855834254
+      MC_Attack_SS+Effects_24: 2432031592164922953
+      MC_Attack_SS+Effects_25: 8813813181787390472
+      MC_Attack_SS+Effects_26: -6450472576994996090
+      MC_Attack_SS+Effects_27: 6227843171021651825
+      MC_Attack_SS+Effects_3: 629205905884638061
+      MC_Attack_SS+Effects_4: -2040879201730725362
+      MC_Attack_SS+Effects_5: -8542676696746256629
+      MC_Attack_SS+Effects_6: -791855431013945613
+      MC_Attack_SS+Effects_7: 6753740783002885545
+      MC_Attack_SS+Effects_8: 3907613748568531652
+      MC_Attack_SS+Effects_9: 6990603841328083682
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
