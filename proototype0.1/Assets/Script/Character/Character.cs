@@ -13,11 +13,15 @@ public class Character : MonoBehaviour
     public bool invulnerable;
     public float invulnerableDuration;
 
+    [Header("UI")]
+    public UnityEvent<float, float> OnHealthUpdate;
+
     public UnityEvent onHurt;
     public UnityEvent onDeath;
     protected virtual void OnEnable()
     {
         currentHealth = maxHealth;
+        OnHealthUpdate?.Invoke(maxHealth, currentHealth);
     }
 
     public virtual void TakeDamage(float damage)
@@ -35,7 +39,7 @@ public class Character : MonoBehaviour
         {
             Die();
         }
-
+        OnHealthUpdate?.Invoke(maxHealth, currentHealth);
     }
 
     public virtual void Die()

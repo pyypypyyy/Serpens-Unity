@@ -48,9 +48,10 @@ public class Enemy : Character
     public float knockbackForce = 10f;
     public float knockbackForceDuration = 0.1f;
 
+    public AudioSource attackAudioSource;
+    public AudioSource hurtAudioSource;
 
-    
-    
+
     public float damage;
     
     [HideInInspector] public SpriteRenderer sr;
@@ -257,6 +258,8 @@ public class Enemy : Character
         foreach (Collider2D hitCollider in hitColliders)
         {
             hitCollider.GetComponent<Character>().TakeDamage(meleeAttackDamage);
+
+            attackAudioSource.Play();
         }
     }
 
@@ -274,6 +277,8 @@ public class Enemy : Character
     public void EnemyHurt()
     {
         isHurt = true;
+
+        hurtAudioSource.Play();
     }
 
     public void EnemyDie()

@@ -14,6 +14,7 @@ public class UIManager : MonoBehaviour
     public Button btnContinue;
     public Button btnResume;
     public Button btnQuit;
+    public Slider healthSlider;
 
     private bool isGamePaused = false;
 
@@ -47,6 +48,13 @@ public class UIManager : MonoBehaviour
             gamePassPanel.SetActive(true);
         }
     }
+
+    public void UpdateHealthSlider(float maxHealth, float currentHealth)
+    {
+        healthSlider.maxValue = maxHealth;
+        healthSlider.value = currentHealth;
+
+    }
     public void showGameOverPanel()
     {
         gameOverPanel.SetActive(true);
@@ -55,7 +63,7 @@ public class UIManager : MonoBehaviour
 
     public void onRestartButtonClick()
     {
-        SceneLoader.Instance.LoadMainScene();
+        
     }
 
     public void onContinueButtonClick()

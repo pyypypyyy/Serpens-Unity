@@ -21,6 +21,11 @@ public class PlayerController : MonoBehaviour
     public float dodgeCooldown = 2f;
     private bool isDodgeOnCooldown = false;
 
+    public AudioSource moveSound;
+    public AudioSource attackSound;
+    public AudioSource dodgeSound;
+
+
     private Rigidbody2D rb;
     private Animator anim;
     private SpriteRenderer sr;
@@ -73,11 +78,14 @@ public class PlayerController : MonoBehaviour
 
         rb.velocity = input * currentSpeed;
 
-        if(input.x < 0)//left
+        if (!moveSound.isPlaying && rb.velocity.magnitude > 0.1f)
+            moveSound.Play();
+
+        if (input.x > 0)//left
         {
             sr.flipX = true;
         }
-        if(input.x > 0)//right
+        if(input.x < 0)//right
         {
             sr.flipX = false;   
         }
@@ -124,6 +132,8 @@ public class PlayerController : MonoBehaviour
         { 
             anim.SetTrigger("meleeAttack");
             isMeleeAttack = true;
+
+          
         }
        
     }
@@ -132,6 +142,7 @@ public class PlayerController : MonoBehaviour
         if (!isDodgeOnCooldown)
         {
             isDodging = true;
+            dodgeSound.Play();
         }
         
     }
@@ -154,6 +165,11 @@ public class PlayerController : MonoBehaviour
         anim.SetBool("isMeleeAttack", isMeleeAttack);
         anim.SetBool("isDead", isDead);
         
+    }
+
+    public void PlayAttackSound()
+    {
+        attackSound.Play();
     }
 
     void SwitchActionMap(InputActionMap actionMap)

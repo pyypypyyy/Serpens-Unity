@@ -119,7 +119,7 @@ SpriteRenderer:
   m_Size: {x: 5.0099998, y: 9.879999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &7139046565526715766
@@ -229,10 +229,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e568d9b23d71d447b67fce7399c40b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 200
+  maxHealth: 300
   currentHealth: 0
   invulnerable: 0
   invulnerableDuration: 0
+  OnHealthUpdate:
+    m_PersistentCalls:
+      m_Calls: []
   onHurt:
     m_PersistentCalls:
       m_Calls:
@@ -304,10 +307,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2af52b38a3f17e408e64a9b2dd5bdda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 200
+  maxHealth: 300
   currentHealth: 0
   invulnerable: 0
   invulnerableDuration: 0
+  OnHealthUpdate:
+    m_PersistentCalls:
+      m_Calls: []
   onHurt:
     m_PersistentCalls:
       m_Calls:
@@ -369,7 +375,7 @@ MonoBehaviour:
   enemyCollider: {fileID: 0}
   projectilePrefab: {fileID: 8244303697636402663, guid: 5b0a7c2c75ca8444c995c7a5de2cab13, type: 3}
   firePoint: {fileID: 4514463958231044624}
-  projectileSpeed: 5
+  projectileSpeed: 10
   attackCooldown: 10
 --- !u!114 &5503119913107060361
 MonoBehaviour:
