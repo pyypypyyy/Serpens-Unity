@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using System;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -157,6 +158,13 @@ public class PlayerController : MonoBehaviour
         isDead = true;
         //ban Gameplay input
         SwitchActionMap(inputActions.UI);//switch to UI inputmap
+        StartCoroutine(DelayedSceneLoad("Level_1", 3.0f));
+    }
+
+    IEnumerator DelayedSceneLoad(string sceneName, float delay)
+    {
+        yield return new WaitForSeconds(delay); // Wait for the specified delay time
+        SceneManager.LoadScene(sceneName);      // Load the specified scene
     }
     void SetAnimation()
     {
