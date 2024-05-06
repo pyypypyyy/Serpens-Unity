@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Declining_HealthBar_60_0: 5441485885744629081
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
