@@ -244,8 +244,8 @@ MonoBehaviour:
   - {fileID: 0}
   targetPointIndex: 0
   currentSpeed: 1
-  chaseDistance: 20
-  attackDistance: 0.8
+  chaseDistance: 100
+  attackDistance: 1.5
   pathPointList: []
   currentIndex: 0
   meleeAttackDamage: 10
@@ -402,7 +402,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: fe52df34e47dffb4bbaeab973326ef4d, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.413
   m_Pitch: 1
   Loop: 0
   Mute: 0
